@@ -1,0 +1,967 @@
+reference,hypothesis,bleu_score,rouge1_score,rouge2_score,rougeL_score
+"Good afternoon, sir. Did you just have a birthday? I don't have my chart with me right now, the nurse is bringing it.","Hello, sir. What is your age and what is your ethnicity?",0.061074723861665896,0.1142857142857143,0.0,0.1142857142857143
+"You identify as African American, correct?",Happy belated birthday. What brings you in today?,0.0,0.14285714285714288,0.0,0.14285714285714288
+"When was your last visit, sir?",The last time you were here was in oh seven right?,0.18181818181818182,0.23529411764705885,0.0,0.11764705882352942
+"Yes, I see. Did we go over your M R I results?",What did the M R I show?,0.20980356838155134,0.4210526315789474,0.23529411764705885,0.4210526315789474
+"Yes, I do. Well, the M R I demonstrated right contrast temporal mass.","Oh, I am so sorry. I do remember now It showed a new right temporal mass with contrast enhancement.",0.2631578947368421,0.4375,0.13333333333333333,0.3125
+"Well, given this mass, and your new seizures, I am concerned that this could be a high grade glioma, we'll need to do more tests.","Well given the characteristics of your mass and the new onset of your seizures, I am thinking it's a high grade glioma.",0.39660240584973805,0.5306122448979592,0.29787234042553196,0.4897959183673469
+Any medical issues running in your families?,I..,0.0,0.0,0.0,0.0
+Anything else?,Did you do sleep study?,0.0,0.0,0.0,0.0
+Any pain in your muscles?,How have you been feeling recently?,0.0,0.0,0.0,0.0
+How about joint pain?,Any joint pain or muscle pain?,0.3333333333333333,0.4,0.25,0.4
+"Okay, good.",What about weakness or loss of muscle strength?,0.0,0.0,0.0,0.0
+Do you feel any stiffness or weakness in your muscle?,Back pain or stiffness?,0.055782540037107455,0.28571428571428575,0.0,0.14285714285714288
+Do you have any back pain?,Thank you for the information.,0.1637461506155964,0.1818181818181818,0.0,0.1818181818181818
+Okay.,Are your joints feeling more unstable?,0.0,0.0,0.0,0.0
+Anyone in family with any blood or heart issues?,What about your family medical history? Any grams or bamps pass from any medical issue?,0.2,0.33333333333333337,0.0,0.33333333333333337
+Anyone diabetic or with any other issues in family?,Any chronic illnesses like high blood pressure?,0.0,0.125,0.0,0.125
+Can you tell me about your family? Did anyone in your family have any medical problems?,Hi there.,0.0,0.0,0.0,0.0
+Anything for anyone else?,What is your mom's medical history?,0.0,0.0,0.0,0.0
+It is good to see you again. How have you been?,Have I reviewed your medical history with you before?,0.08897082254631199,0.19999999999999998,0.0,0.19999999999999998
+Have anything changes to your medical history or social history since the last time I saw you?,So then I will review it again.,0.03423586234882512,0.08333333333333333,0.0,0.08333333333333333
+How old is the patient?,"Who is your primary doctor, miss?",0.16666666666666666,0.1818181818181818,0.0,0.1818181818181818
+Seventy seven.,Do you know or remember how long you will be with us today?,0.0,0.0,0.0,0.0
+"She was sedated with Ativan, correct?","No, I will just be a moment. So, what is going today young lady?",0.0,0.0,0.0,0.0
+"Yeah, we had to sedate her. She wasn't doing so well upon arrival and appeared short of breath. She couldn't give us a history and we immediately had Xray come in to scan her lungs.",I was called in to interpret her O2 level results. Did she have her x-ray yet?,0.05718426913332361,0.18518518518518517,0.03846153846153846,0.14814814814814817
+Did they find anything?,"I am not, she is right here. Hi miss, do you know what you are here for today? What is the man sitting with you?",0.0,0.0,0.0,0.0
+The report showed what we believe to be free air under her right diaphragm.,"Miss? Hi, I am waiting for doctor to come interpret your x-ray. You had a chest and lung x-ray taken because of shortness of breath.",0.04,0.04878048780487805,0.0,0.04878048780487805
+What is your family medical history?,"Tell me about your medical history, any conditions running in the family?",0.16666666666666666,0.4444444444444444,0.12500000000000003,0.3333333333333333
+How old are your brothers?,Nobody else in the family?,0.0,0.0,0.0,0.0
+Any family history of diabetes?,Oh.,0.0,0.0,0.0,0.0
+"Are you still working, sir?",What did you do before you retired?,0.14285714285714285,0.16666666666666666,0.0,0.16666666666666666
+That's awesome.,Are you married?,0.0,0.0,0.0,0.0
+Do you drink?,Do you smoke? Or consume alcohol or use illicit drugs?,0.2,0.30769230769230765,0.1818181818181818,0.30769230769230765
+How about smoking or any drugs?,Have you ever used any illicit drugs?,0.2857142857142857,0.30769230769230765,0.0,0.30769230769230765
+Okay.,Thank you for the information.,0.0,0.0,0.0,0.0
+Do you know about any allergies from any medications?,"Anything I should know, any allergies?",0.1010884432854389,0.4,0.15384615384615385,0.4
+"Good afternoon, ma'am. Can you tell me more about yourself, please?","What is your height, ma'am? And approximately how many pounds do you weigh?",0.07692307692307693,0.23076923076923075,0.08333333333333334,0.23076923076923075
+Did the nurses get your height?,Thank you.,0.0,0.0,0.0,0.0
+How tall are you?,"What is your diagnosed type of diabetes, if any?",0.0,0.0,0.0,0.0
+"Thank you, and how much do you weigh?",Thank you.,0.024893534183931972,0.4,0.25,0.4
+"Great, and do you have any major medical conditions that I should know about?",Thank you.,0.0,0.125,0.0,0.125
+"Thank you, and do you have any allergies to any medicine?",Are you allergic to any medications?,0.21729910425353913,0.3529411764705882,0.13333333333333333,0.3529411764705882
+Did he get his B C G vaccine?,Good afternoon. What brings you to the clinic today? Did my nurse take a good look at you?,0.05555555555555555,0.07692307692307691,0.0,0.07692307692307691
+"Okay, did you have his immunization records?","Great, is this your son, sir?",0.0,0.0,0.0,0.0
+"Okay, how long has he been complaining of uneasiness in his stomach?",Perfect. Juts a few more questions and we will be all set. Is there any history of liver disease?,0.05263157894736842,0.06451612903225808,0.0,0.06451612903225808
+Any history of liver problems or gallbladder stones?,"Great, how about chills or fever? Any signs of infection?",0.3,0.33333333333333326,0.0,0.22222222222222224
+"Okay, good. Any fever or chills?",Perfect. Any other medical conditions I should be aware of?,0.1,0.125,0.0,0.125
+Any history of ulcers?,Maybe kidney stones?,0.0,0.0,0.0,0.0
+What's your living situation like?,Do you smoke? Do you drink alcohol?,0.0,0.0,0.0,0.0
+Do they serve as a good support system for you?,That is great that you have lots of support. It is good to not live totally by yourself and have people to watch over you.,0.04,0.17142857142857143,0.0,0.11428571428571428
+"And as for drinking and drugs, do you drink or use tobacco products?",Thank you for the information.,0.08075860719786215,0.2222222222222222,0.0,0.1111111111111111
+"You know smoking is bad for you, right?",Thank you for the information.,0.10976232721880529,0.3076923076923077,0.0,0.3076923076923077
+How've you been feeling lately?,How are you feeling today?,0.4,0.5454545454545454,0.0,0.5454545454545454
+How've you been managing your anxiety?,You seem anxious.,0.0,0.2,0.0,0.2
+"Good, good. And any problems with your blood pressure?",Your last few records show that you feel uncomfortable talking to me?,0.0,0.09523809523809525,0.0,0.09523809523809525
+"Hello, how are you today?",Do you smoke or drink?,0.2,0.20000000000000004,0.0,0.20000000000000004
+Great. What would you like to bring up today?,You don't drink or smoke?,0.0,0.13333333333333333,0.0,0.13333333333333333
+Alright. Let's start with the basics. Do you drink? Excessive drinking can cause issues with the liver.,Thank you for providing the information.,0.05329324869323129,0.16666666666666666,0.0,0.16666666666666666
+"Okay, that is a common concern. We can address that today. Do you happen to smoke?",Lets stay on the topic of your alcohol and nicotine use for now.,0.0,0.0,0.0,0.0
+"Hello, I will ask you a few questions.",How long have you been living in the area? Or are you new to the area?,0.0625,0.08333333333333333,0.0,0.08333333333333333
+Any headaches or breathlessness?,Is something wrong with the address?,0.0,0.0,0.0,0.0
+Any skin problems?,"I see completed forms, but I still have to ask everyone these questions from my checklist, sorry. Are you-",0.0,0.0,0.0,0.0
+Any pain in the chest or anywhere else?,And nothing new with the constitution of your family? Did you get a new roommate? Or has someone new moved in since you were last here?,0.07692307692307693,0.1764705882352941,0.0,0.11764705882352941
+Any other problem that I should know.,"Are you still working with your hands, like with jewelry or painting?",0.0,0.0,0.0,0.0
+Did you ever see that your skin is turning blue or greyish in color?,"I'm going to check your extremities. No discoloration, clubbing, or swelling here.",0.14108028748176898,0.14814814814814817,0.0,0.14814814814814817
+Any swelling like there is water filled inside?,Come in.,0.0,0.0,0.0,0.0
+Have you ever noticed any kind of swelling in your fingers or toes?,"From what I can see, you don't have any swelling in your fingers. That's good. Keep an eye on it. Swelling could mean a couple different things.",0.18518518518518517,0.3333333333333333,0.15,0.28571428571428575
+Any health problems or health conditions?,"So, have you had any surgeries?",0.0,0.16666666666666666,0.0,0.16666666666666666
+Lucky you. No prior surgeries?,Thank you for the information.,0.0,0.20000000000000004,0.0,0.20000000000000004
+"Yeah, your fatigue can be due to so many reasons. You have many underlying conditions. You have hypertension, high cholesterol, and osteoarthritis. All this can add up and lead to fatigue. I think you need to really take care of your health.",You mentioned that you have heart conditions and osteoarthritis.,0.014200851781392996,0.23529411764705882,0.0816326530612245,0.196078431372549
+"Nice to see you again, miss. I see your last visit was back on August tenth two thousand and four. How are you?","Nice to meet you, ma'am.",0.010929488978917028,0.20689655172413793,0.07407407407407407,0.20689655172413793
+How is your husband doing?,The last time I saw you was in our dermatology office and you were with Doctor Luo. How has everything been?,0.047619047619047616,0.07692307692307693,0.0,0.07692307692307693
+"Great! I hope the work isn't getting him too stressed out. Also, I need to fill out the ethnicity section in your paperwork; it seems to be missing. What ethnicity do you identify as?","I know how that feels. So, remind me, how old are you?",0.013323312173307823,0.0851063829787234,0.0,0.0851063829787234
+Thanks! Are you still working too?,"Haha, no, no. That's not what I meant. The question was, how old are you?",0.0,0.18181818181818182,0.1,0.18181818181818182
+I understand. How is your acne doing?,It's a stressful time of year for any type of employment.,0.0,0.0,0.0,0.0
+I see. Let me take a look at this rash. I see you have these small folliculitis lesions that are pus filled bumps centered on your hair.,"I'm sorry to hear that. Rashes can be really brutal sometimes. Before we start the reevaluation, do you remember the last time you were in my office?",0.037037037037037035,0.14545454545454545,0.0,0.10909090909090909
+It's treatable. It seems like it's happening because your acne is flaring up.,"Haha, no it's okay. I was just curious.",0.06690767856487378,0.16666666666666669,0.09090909090909091,0.16666666666666669
+"I forgot what I prescribed you. Let me take a look at my notes. Oh, I see. I prescribed you five hundred milligrams of Amoxicillin to take twice a day and a point one Tazorac cream. Have those been working?","Yes, I know he did a great job, but seeing Doctor Luo kind of jogged my memory. The last time I saw you was August tenth two thousand and four. It's been a while we should have someone look at this before it gets any worse.",0.2391304347826087,0.2988505747126437,0.023529411764705882,0.18390804597701152
+Continue to take those and try not to stop it. Have you been trying anything else?,What have they had you take?,0.03147926713959364,0.2727272727272727,0.0,0.18181818181818182
+I see. Has that been helpful?,"How did it start and it looks like it might have spread? Oh, I see. I think this is just a flare up of the acne. Let me go take a look at the folliculitis.",0.05714285714285714,0.09756097560975609,0.05128205128205128,0.09756097560975609
+Hello! How are you doing today?,"Which primarily brings you into the office today, sir? Your referral states it could be a T A R N fixation O R some numbness to the toes? Can you confirm?",0.03225806451612903,0.1081081081081081,0.0,0.1081081081081081
+How long have your legs been swollen like this?,"I am sorry to hear that, sir. What is frustrating you the most?",0.0,0.0,0.0,0.0
+How long has the numbness of your toes been going on?,Oh wow! That's not good. I will run some tests and see what's going on.,0.06666666666666667,0.14285714285714285,0.07692307692307693,0.14285714285714285
+Are you able to get up and move around?,"I will also take a look at your legs and evaluate the extent of swelling. And I am curious, have you had any discharge from ulcers?",0.07692307692307693,0.1142857142857143,0.0,0.05714285714285715
+"When you get up and try to walk around, do you experience any chest pain or visual problems?",What do you do for back pain?,0.05935662489817165,0.24,0.08695652173913045,0.24
+Do you take anything for your pain?,"I will have you weigh in here and we will consider some stress relief exercises after we get the lab results in. You are prone to getting ulcers with the discharge and C O P D. If you do not have enough oxygen in your body, it is hard to heel and it is likely you are getting these leg ulcers because you need more oxygen in your body. Other symptoms like constipations, diarrhea, chest pain, nausea, vomiting?",0.02564102564102564,0.09411764705882351,0.0,0.09411764705882351
+"Do you ever experience any constipation, diarrhea, abdominal pain, nausea or vomiting?",That's good.,0.0,0.0,0.0,0.0
+Okay. Let me look.,Thank you for the information. It sounds like just bad weather going around the city in general.,0.0,0.0,0.0,0.0
+Is this chest pain new for you?,"Hello, how are you? Ah, you are a familiar face, do not remember the last time I saw you though.",0.05,0.07407407407407408,0.0,0.07407407407407408
+How would you describe the pain?,"I see. And what exactly have you been experiencing, sir?",0.1,0.125,0.0,0.125
+How long does each episode last?,In your chest?,0.0,0.0,0.0,0.0
+How would you rate the pain out of ten with ten being the worst?,Can you elaborate more here? And any specific time then you have noticed the pain?,0.13333333333333333,0.20689655172413796,0.07407407407407408,0.20689655172413796
+Have you tried taking anything for pain relief?,Have you had any pain or discomfort in your chest?,0.3,0.33333333333333326,0.125,0.33333333333333326
+And are you having any other symptoms that I should know about? Like shortness of breath or leg swelling?,Any shortness of breath or nausea?,0.07637256266179182,0.39999999999999997,0.2608695652173913,0.39999999999999997
+And how long have you been married?,"Hi Paul, we're with Doctor Quang today're here to ask you some questions and like always Doctor Quang speak with you after we ask you some questions okay. So, first question are you married and do you live together or separately?",0.024390243902439025,0.12,0.0,0.12
+"Wow, that's remarkable.",That's wonderful.,0.0,0.5714285714285715,0.4,0.5714285714285715
+That's amazing! Okay so tell me something do you drink or smoke?,Been married for forty five years must be nice to spend retirement with your wife.,0.0,0.0,0.0,0.0
+Okay.,"Okay no history of boozing, correct?",0.0,0.2857142857142857,0.0,0.2857142857142857
+"Hello, my name is Mary. I will ask you a few questions about your medical and family history and then Doctor Smith will come and check you. Okay?",Is your case of sinus related to your recent in C V A?,0.02426317497222675,0.14634146341463414,0.0,0.0975609756097561
+Do you have any other previously diagnosed medical issues?,Are you having any other issues right now?,0.3309363384692233,0.5882352941176471,0.39999999999999997,0.5882352941176471
+Do you smoke or drink?,"Oh, I'm sorry to hear that.",0.0,0.0,0.0,0.0
+Do you have any kind of allergies?,"Do you have any known allergies to food, medication, or previously experienced adverse reaction?",0.2857142857142857,0.4761904761904762,0.3157894736842105,0.4761904761904762
+"Thank you for answering all my questions, I will let Doctor Smith know that you are ready.",Thank you for the information so far.,0.10270758704647535,0.25,0.18181818181818182,0.25
+Do you know what foods have a high level of salt?,Your blood pressure is pretty borderline. I want to control it with diet before we consider you on any medications. Would you consider a low salt diet?,0.07407407407407407,0.15789473684210525,0.0,0.15789473684210525
+Yes mostly. And pickles.. I want you to avoid them.,Yes. I want you to cut back on foods like fast food and other rich processed foods high in sodium. Are you able to see a nutritionist for a consult?,0.13333333333333333,0.3,0.15789473684210528,0.25
+Because it is harmful for your current condition.,"Well, I think a professional advice will be helpful for you to understand which foods contain hidden salt and the right amount for you.",0.041666666666666664,0.0625,0.0,0.0625
+"Yes, so follow a low salt diet.","Great, thanks.",0.0,0.0,0.0,0.0
+"Please, tell me more about your family's medical history. Are there any conditions I should know about?",Is there an arthritis history in your family?,0.08116311683958743,0.30769230769230765,0.08333333333333333,0.15384615384615383
+"Good to know, did you have arthritis as a child?",What about in children? Did anyone in your family have arthritis when they were kids?,0.13333333333333333,0.24,0.08695652173913043,0.24
+"Generally, but it can happen in children as well. What about psoriasis, is there any history of that anywhere?",Lucky you! Did anyone have psoriasis?,0.0,0.08,0.0,0.08
+"Hello, sir. Welcome back. Looks like we are going to revaluate your heart issues. You have a history of ischemic cardiac disease, correct? Can you also state your age?","Hello, sir, how are you today?",0.01081868535974655,0.2285714285714286,0.06060606060606061,0.2285714285714286
+"I do. The scan showed some wall scarring but also that the amount of blood leaving your heart per contraction was normal. Do you experience any chest pain, palpitations, difficulty sleeping at night, leg or arm swelling, or shortness of breath while lying flat?","Yes. This thallium treadmill test showed that there is some mild scaring on your inferior wall of the heart. Your ejection fraction was preserved, though. Have you had chest pain, palpitations, shortness of breath at night, or had any swelling?",0.42979777356708077,0.5,0.12195121951219512,0.3333333333333333
+"Any nausea, vomiting diarrhea, or fever?","Any history of nausea, vomiting, diarrhea, or fever, ma'am?",0.4444444444444444,0.7499999999999999,0.5714285714285714,0.7499999999999999
+Okay.,Thank you for the information.,0.0,0.0,0.0,0.0
+"So, Doctor Pai how is your patient that you told me about?","I'm going back home today, Doctor.",0.0,0.10526315789473685,0.0,0.10526315789473685
+"Oh, we discharged her, she went home.","That's great. Remind me, who is at home to help care for you?",0.0,0.09523809523809523,0.0,0.09523809523809523
+That's great!,"Actually, I live alone.",0.0,0.0,0.0,0.0
+Yeah.,Do you have any family in the area that can help?,0.0,0.0,0.0,0.0
+What type of cancer again?,We um we we um we discussed the possibility of of your dad having metastatic disease related to his prostate cancer. I see here they told me it was advanced prostate cancer.,0.03125,0.10810810810810811,0.0,0.10810810810810811
+Did it travel anywhere in your body?,And do you know if this affected any other areas other than just the prostate.,0.0,0.0,0.0,0.0
+Do you have any major medical conditions that run in your family that I should know about?,Has anyone else in your family had lots of hip pain?,0.15806680330494804,0.21428571428571427,0.15384615384615385,0.21428571428571427
+"Well, it could be anything from depression to high blood pressure, to cancer.",Has anyone in your family had a hip replacement?,0.0,0.0,0.0,0.0
+"Hi there! I am Doctor Jones, sir.","Good afternoon, sir. My name is Arinze. I am a nurse practitioner.
+
+Thank you and nice to meet you.
+
+Before we start, I would like to take a look at your chart.
+
+Alright.
+
+So, you are fifty-five years old and here for another assessment, correct?
+
+Yes, that is correct.
+
+Good.
+
+Hello, sir. I am Anna, the medical assistant. I have a few more questions to ask you.
+
+Alright.
+
+So, you are here because of your right leg, correct?
+
+Yes, my whole right leg in general.
+
+What happening in your right leg?
+
+I cannot remember the exact timeline, but I have been having weakness. About six months ago, it first started. I noticed it because I was trying to get something from the closet, but I could not stand on my right toe.
+
+So, you had difficulty trying to stand up?
+
+Yes, exactly. In addition to that, I have a little tingle in my toes, but my toes have been weak. I have been also experiencing numbness in them. My back hurts mildly. It has been hurting mildly for many years now.
+
+Do you only feel the tingle and numbness in the right foot and toes?
+
+Well, my back hurts and I had cramps in both legs, especially both calves. The cramps have been going on for about a year.
+
+Did the cramping ever go away?
+
+Yes, it did. It went away approximately two months ago.
+
+Do you feel weakness in both legs or just in the right leg?
+
+I feel like it is only the right leg. I do not think my left leg has the same weakness.
+
+Are you having any uncontrolled release of urine or bowel movements?
+
+No, I do not have any uncontrolled bowel movements or urine release.
+
+Are you experiencing any shoot or sharp related pain in your leg?
+
+I am noticing that the strength of my right leg has been getting worse.
+
+Have you seen anyone else for this problem?
+
+Yes. I first went to my primary care physician then they sent me to the neurologist.",0.008797653958944282,0.017191977077363897,0.005763688760806917,0.017191977077363897
+What brings you into see me today?,Are you ready to start your appointment?,0.14285714285714285,0.14285714285714285,0.0,0.14285714285714285
+How long has this been going on and do you know how you injured yourself?,How long have you been experiencing weakness?,0.18223231847084023,0.36363636363636365,0.1,0.27272727272727276
+Can you tell me what you do remember?,That's fine. Do you remember any accident? Or any kind of trauma or fall that may have led to this weakness?,0.047619047619047616,0.19999999999999998,0.0,0.13333333333333333
+"Was the numbness and tingling mild, moderate, or severe?",Have you had any new tingling or numbness since your leg was affected by the weakness? Or has it been a problem for you before? Or did you have tingling or numbness and just didn't notice until now?,0.13157894736842105,0.25,0.043478260869565216,0.16666666666666666
+Have you had any other pain any where else in your body?,Did you have any back pain? Or any radiating back pain that came into the leg? Or a leg cramping feeling?,0.19047619047619047,0.30303030303030304,0.0,0.24242424242424246
+"Is the back pain been mild, moderate, or severe?",Have you had any weakness or loss of strength in your left leg?,0.07692307692307693,0.09090909090909093,0.0,0.09090909090909093
+How long has that been going on?,Are you right handed or left handed?,0.0,0.0,0.0,0.0
+Have you had any weakness in the left leg?,You did not go to the hospital for the pain you felt in your leg and back?,0.17647058823529413,0.30769230769230765,0.0,0.23076923076923078
+Have you had any pain around right leg and the area of numbness and tingling?,Are you taking any medications?,0.054134113294645084,0.2,0.0,0.2
+Have you had any bowel or bladder incontinence? Any radicular pain?,"Since you mentioned that you have been seen by your primary doctor and then a neurologist, can you tell me more about the treatments you had and what more advanced testing you have undergone?",0.058823529411764705,0.13333333333333333,0.04651162790697675,0.13333333333333333
+When did you first see a doctor for the issue? I remember that you told me you saw a different provider prior to coming to see me.,Do you recall the names of the tests that were done?,0.06368358520661273,0.15789473684210525,0.0,0.15789473684210525
+"I see in your chart that we did a CT scan that shows degenerative changes, but nothing obviously abnormal. Remind me why we did not do a MRI of your spine?",Do you have any copies of the reports from those tests?,0.014756419198349833,0.09523809523809523,0.0,0.09523809523809523
+That is unfortunate. It looks like we were able to do an EMG and nerve conduction studies. What medications are you taking currently?,Do you happen to have a copy of the CT Scan?,0.061074723861665896,0.1764705882352941,0.0,0.1176470588235294
+What medications are those?,"You said it was before taking stat medications. From my understanding you are referring to Lipitor, correct?",0.058823529411764705,0.19047619047619047,0.0,0.19047619047619047
+Do you know what your levels of your CK were before you started taking medication?,Can you tell me what the values were regarding your CK Levels before and after starting these medications?,0.3333333333333333,0.5454545454545454,0.06451612903225808,0.42424242424242425
+I don't see any labs in your chart. Did your primary do labs for your CK levels?,Do you have the paperwork from these tests?,0.0,0.07692307692307691,0.0,0.07692307692307691
+Okay. Have you started any other medications?,What does the most recent test show on the CK Level?,0.0,0.0,0.0,0.0
+Have you experienced any weakness or pain after starting Zetia?,Does this cause any closer pain?,0.08556951983876533,0.25,0.0,0.25
+Can you remind me how old you are?,Thank you for the information.,0.10976232721880529,0.15384615384615385,0.0,0.15384615384615385
+"I spoke with Poison Control regarding the possible ingestion of the liquid. They let me know that it is actually a relatively small amount and is likely to be a nontoxic ingestion of the liquid, if she did end up ingesting it. It is not likely to be the case as she is behaving as if she did not ingest any of the liquid.","It is a small ingestion. It is hard for me to tell that she ingested anything if she did, according to what her family is saying.",0.11593963142409615,0.37777777777777777,0.11363636363636363,0.26666666666666666
+Do you smoke cigarettes?,Do you smoke or drink alcohol?,0.5,0.6,0.5,0.6
+"Good, no one should.",Thank you for the information.,0.0,0.0,0.0,0.0
+Okay. How about alcohol?,Thank you for the information.,0.0,0.0,0.0,0.0
+Okay.,Are you sure?,0.0,0.0,0.0,0.0
+"How are your sugar levels these days, sir?","You well-controlled diabetes, hepatitis C and HIV, correct?",0.0,0.0,0.0,0.0
+That's good. Do you have any other medical condition?,How long you have been taking the treatments for it?,0.2,0.20000000000000004,0.1111111111111111,0.20000000000000004
+And how about any allergies? Are you allergic to any drug or anything?,Are you allergic to any medications?,0.25950268659549813,0.5263157894736842,0.47058823529411764,0.5263157894736842
+It causes you side effects?,And no rashes today. Any other allergies?,0.0,0.0,0.0,0.0
+I see.,"I see. And I have put it in your file. So, it will automatically go onto the report that you have to carry.",0.08695652173913043,0.16,0.08695652173913045,0.16
+Interesting.,Got it. Rashes?,0.0,0.0,0.0,0.0
+"Good afternoon, ma'am.","Good afternoon ma'am, my name is Doctor Boyd and I'll be taking care of you today. Let's start off by confirming some of your information.",0.04,0.25,0.19999999999999998,0.25
+"Before we get started, I just need some background information. How old are you?","Great, so you're fifty six years old now, right?",0.06375038008193697,0.16666666666666666,0.0,0.08333333333333333
+"Good, what's a young lady like you doing in my office? I hear you got hurt, what happened?","And, you said that this accident happened at work?",0.04087549346349359,0.14285714285714285,0.0,0.14285714285714285
+When did this happen?,What shoe was this foot in?,0.16666666666666666,0.2,0.0,0.2
+"Okay, do you have any other injuries I should know about?",What foot was injured?,0.0,0.0,0.0,0.0
+Have you ever smoked?,Do you currently smoke cigarettes?,0.2,0.4444444444444445,0.0,0.4444444444444445
+"Each day, is it?",What for how long?,0.0,0.0,0.0,0.0
+For how long?,Do you have any other illicit substance related abuse problems?,0.0,0.0,0.0,0.0
+Do you take any other drug or consume alcohol?,I mean do you have any other substance abuse problems?,0.3,0.4210526315789474,0.23529411764705882,0.4210526315789474
+"Good morning, ma'am. Did you have a good thirty-sixth birthday?","Hello, how are you doing? How may I help you today, ma'am? Also, what is your ethnic background, ma'am?",0.05263157894736842,0.18181818181818182,0.06451612903225806,0.12121212121212123
+"That's good, we'll get back to that knee in a moment. Just to confirm, you identify as white, correct?","I am sorry to see you in pain, but it is always a pleasure to help my patients. What is going on with your knee today? Is there pain?",0.20689655172413793,0.24000000000000002,0.0,0.16
+"Thank you. I just needed to make sure my chart was correct. So, is this left knee still bothering you?",How much will the Synvisc injections help this time?,0.03273053647890081,0.06896551724137932,0.0,0.06896551724137932
+"You've had three Synvisc injections, correct? When was your last one?","I know it is a common complaint, you are not alone. So it is not better yet?",0.0,0.06896551724137931,0.0,0.06896551724137931
+Did that provide any relief at all?,"Yes, you are looking at about thirty five to forty percent better from what you had been telling me, but I want to know more about the pain that you are experiencing. Do you mind telling me more about it?",0.05,0.0851063829787234,0.0,0.0425531914893617
+Are you still having the pinching pain?,"That is great to hear for the pain, so explain to me this pinching pain in the knee again.",0.10526315789473684,0.23076923076923078,0.08333333333333333,0.23076923076923078
+Can you bend this knee at all?,Is it just pinching pain or anything else that I should know about? How long ago did you get the Synvisc injection?,0.045454545454545456,0.06896551724137931,0.0,0.06896551724137931
+"Can you straighten the knee out for me, please?","I am just checking your knee, no need to get more pressure there, but it looks like your knee motion is pretty good. Can you bend you knee for me?",0.13333333333333333,0.2564102564102564,0.1081081081081081,0.2564102564102564
+"Yes, that's not out all the way.","Okay, I got you, so I see that you have pinching pain with full weight bear, the flexion is limited, and that the extension has a decreased range of motion.",0.03333333333333333,0.10526315789473685,0.0,0.10526315789473685
+"With ten being the worst pain ever, how would you rate your pain today out of ten?","On a scale of zero to ten, if zero is no pain and ten is the worst pain what number would you give it or can you rate it from that scale?",0.28125,0.40816326530612246,0.1702127659574468,0.2857142857142857
+Have you used ice or heat?,"Okay, so you've been trying hot and cold packs, right?",0.0,0.11764705882352942,0.0,0.11764705882352942
+What medicines are you taking?,Are you using anything to help with this pain?,0.1111111111111111,0.2857142857142857,0.16666666666666666,0.2857142857142857
+Have those helped at all?,How often are you using the Tylenol with codeine?,0.0,0.0,0.0,0.0
+"Hello, how are you doing today? Before we get started, I am going to do a basic review of your medical and social history.",Can we go over your family medical history?,0.05075073121372976,0.3125,0.0,0.3125
+"On your chart we have that you are a non smoker, non drinker, and do not use drugs. We also have written that you do not have any past surgeries or medical conditions. Does that check out?",Thank you for the information.,0.0003323114546347868,0.047619047619047616,0.0,0.047619047619047616
+So I talked to Doctor X about your problems.,"So, Doctor, did she have C. diff?",0.0,0.25,0.0,0.25
+And he said your recent intestine infction is resolved. Which is C Diff colitis. You saw him two weeks back right?,"Based on our last conversation, I think patient's C. diff colitis has resolved now.",0.0,0.2222222222222222,0.11764705882352941,0.16666666666666666
+Yeah.,"So, recently Doctor X followed up with you?",0.0,0.0,0.0,0.0
+And we have Hypertension and high Cholesterol as well which we talked about.,Hm so when was the last time you saw him?,0.0,0.0,0.0,0.0
+How can we help you today?,She also feels congested and not so well.,0.0,0.0,0.0,0.0
+Oh sorry to hear that. Let me see what we can do.,"Don't worry, let me take a look.",0.06993452279385044,0.2,0.1111111111111111,0.2
+How are you?,"Is this gentleman with you today, sir?",0.0,0.2,0.0,0.2
+"Oh I am sorry, is it causing any shortness of breath?",How shortness of breath do you have?,0.16134803485935978,0.33333333333333326,0.25,0.33333333333333326
+How about fever?,Any fever or chills?,0.0,0.28571428571428575,0.0,0.28571428571428575
+Any chills?,How old are you?,0.0,0.0,0.0,0.0
+Okay so that's why you came to E D?,I am just checking some basic information.,0.0,0.0,0.0,0.0
+"I am sorry, we can help you. How old are you?",How do you feel during coughing?,0.07243303475117971,0.23529411764705885,0.0,0.23529411764705885
+Is there any notable intra abdominal pathology?,Have you had any abdominal operations in the area?,0.2222222222222222,0.25,0.0,0.25
+None whatsoever.,We should get to know your medical history before we proceed with surgery.,0.0,0.0,0.0,0.0
+"Well, that's good news.",No machine pathology. There is no hernia to worry about in the abdominal region.,0.0,0.0,0.0,0.0
+Do you have any health conditions that I should be aware of?,So you suffer from high blood pressure?,0.06993452279385044,0.10526315789473685,0.0,0.10526315789473685
+Have you ever had surgery?,Did you have any fractures or surgeries in the past?,0.1,0.4,0.0,0.26666666666666666
+"Thank you, anything else you can remember?",Are you aware of any health conditions present in your immediate family?,0.08333333333333333,0.10526315789473685,0.0,0.10526315789473685
+"You were placed on nasogastric tube for decompression, right?","How are you feeling, ma'am?",0.0,0.13333333333333333,0.0,0.13333333333333333
+And how do you feel after that?,Can you tell me about the condition of your sister?,0.1,0.11764705882352941,0.0,0.11764705882352941
+Any medical problems?,Looks like you've conquered the worst of your toe infection. How are we feeling today?,0.0,0.0,0.0,0.0
+Have you seen an ENT for this?,"Yes, it seems like you may have some anatomical issues going on inside your nose. This may be an indicator of enlarged adenoids.",0.08695652173913043,0.26666666666666666,0.0,0.13333333333333333
+Do you have plans to see the ENT in the near future?,Thank you for the information.,0.0986387855766426,0.23529411764705882,0.0,0.23529411764705882
+"If it's causing you discomfort, then I recommend scheduling another follow-up visit. Is there anything else that's bothering you today?",Thank you for the information.,0.00995741367357279,0.07142857142857142,0.0,0.07142857142857142
+Mind if I take a look?,I have something that may help.,0.16666666666666666,0.16666666666666666,0.0,0.16666666666666666
+It looks like you have an ingrown nail. It seems to be improving on its own.,Is the nail bothering you because it is growing inside the toe?,0.05971094254781577,0.21428571428571427,0.0,0.14285714285714288
+I hear she hasn't been doing so well.,What seems to be the problem?,0.0,0.0,0.0,0.0
+I completely understand. It's never easy to see your baby sick. Have you taken her temperature recently?,Has she only been congested for the past week or has it been more than that?,0.0,0.058823529411764705,0.0,0.058823529411764705
+"I'm glad you brought her in today. I'll go ahead and take her temperature again. Is she experiencing any other symptoms, such as difficulty breathing or wheezing at all?",Thank you for the information.,0.0016459494098040061,0.05555555555555555,0.0,0.05555555555555555
+Is she taking down milk?,Thank you for the information.,0.0,0.0,0.0,0.0
+How often have you been changing her diapers?,Is she eating and drinking okay?,0.0,0.0,0.0,0.0
+"Hello, miss. How are you doing today?","Do you smoke, Maria?",0.11809163818525367,0.36363636363636365,0.0,0.18181818181818182
+"Oh, no. When did it start?","I understand, it is terrible to have a headache. How long have you had the headaches?",0.0625,0.09090909090909091,0.0,0.09090909090909091
+I see. Do you smoke to relieve the stress?,Those sound like plausible stressors.,0.0,0.0,0.0,0.0
+"Good morning, ma'am. You're here for a follow up, correct?","Good afternoon, ma'am. Is this your second visit to our clinic?",0.18181818181818182,0.25,0.09090909090909091,0.25
+Happy birthday!,"Happy belated birthday. Great to know. So, what's going on in your life?",0.07692307692307693,0.25,0.0,0.25
+"Just to confirm, ma'am, you identify as White, correct?",Please tell me how can I help you today?,0.1111111111111111,0.10526315789473685,0.0,0.10526315789473685
+"Okay, walk me through this. So, you've seen doctor X Y Z before, correct?","Yeah, she also talked about it in her notes. So, you had seen doctor X, Y, and Z?",0.16666666666666666,0.42424242424242425,0.2580645161290323,0.42424242424242425
+You were having right leg pain when you saw him?,"Lumbar scoliosis and lumbar spinal stenosis, can you please explain them to me?",0.07692307692307693,0.08695652173913043,0.0,0.08695652173913043
+Have you ever had surgery on your back?,"You don't have to if you don't want to, tell me about your prior laminectomy surgery?",0.125,0.30769230769230765,0.0,0.23076923076923078
+How did you respond to the procedure?,"Yes, yes, I see that you had lower back pain and post surgery for laminectomy, which was done for your lumbar spinal stenosis.",0.043478260869565216,0.06666666666666667,0.0,0.06666666666666667
+How have you been treated for these following the surgery?,"Okay. So, it makes sense that you would need laminectomy for that.",0.16666666666666666,0.1818181818181818,0.0,0.1818181818181818
+Do you remember which side it was in?,"Yes, the right L two L three transforaminal epidural injections. Last dose was given in March two thousand and five.",0.05,0.14285714285714288,0.0,0.14285714285714288
+When was the last time you had these injections into the lower back?,"Oh, I see it right here in your injection list, good. How were they? Were you getting any relief with that?",0.047619047619047616,0.11764705882352941,0.0,0.058823529411764705
+How did your symptoms progress following the injections?,"Well, I can see in my notes that after the injection X, Y, and Z says: remaining symptoms are probably related to hip.",0.08695652173913043,0.19354838709677416,0.06896551724137931,0.12903225806451613
+Did he do any imaging on this hip?,"Um Um, were there any x rays taken at that time?",0.09090909090909091,0.10526315789473685,0.0,0.10526315789473685
+"Okay, the x rays we took today show marked degenerative changes, and a progression since the x rays taken back in August when you saw Doctor X Y Z.","Oh, yeah, we also have a report mentioning here that there were markedly degenerated changes with a significant progression of disease in comparison to your August fourth two thousand four x ray.",0.1875,0.26229508196721313,0.03389830508474576,0.22950819672131145
+When was that?,"Yes, the right intra articular hip injections on April seventh two thousand five, right? How did they go? How did it feel?",0.0,0.0,0.0,0.0
+Is that when you had the last injections?,"Oh, okay, this year. And how did that go?",0.1111111111111111,0.11764705882352941,0.0,0.11764705882352941
+Has anyone talked to you about doing a hip replacement?,"Were you better, the pain got reduced or something?",0.09942659075715218,0.10526315789473685,0.0,0.10526315789473685
+Are you still having pain in that right hip today?,"Umm, they have a very good success rate, but at the end of the day, it's you're call to do it or not. I am always here to help and support. How much of pain are you getting?",0.05263157894736842,0.16000000000000003,0.041666666666666664,0.08000000000000002
+What makes the pain worse?,Are you able to walk?,0.0,0.0,0.0,0.0
+"Okay, if it hurts that bad you should be using a cane. Did you ever get one?",Do you ever use a walking stick or a cane?,0.14897559113742284,0.37037037037037035,0.24000000000000005,0.29629629629629634
+Good. Do you have any other appointments scheduled?,Okay. Let's increase your pain management medications. How much and how frequently do you take those pain medications?,0.05555555555555555,0.14814814814814814,0.08,0.14814814814814814
+That's fine. What medicines are you taking?,"Yeah, the Ultracet. Are you taking it four times a day, or is it because you can take it more frequently due to pain?",0.041666666666666664,0.1875,0.13333333333333333,0.1875
+Does this help the pain?,"Hi, thank you for coming in today. I wanted to follow up with you since Dr. Ronson and I divided your knee pain issues during your last visit. Have you experienced any pain around the tendons?",0.027777777777777776,0.09756097560975609,0.0,0.048780487804878044
+"Hello, sir. How are you doing today?","It sounds like you are in here to have your wrist evaluated, is this correct?",0.13333333333333333,0.18181818181818182,0.0,0.09090909090909091
+"Oh, no. Again? Did you hurt it before?",Have you had problems with this wrist before?,0.25,0.25,0.0,0.25
+I see. How did you hurt it?,When did you injure your wrist?,0.28216057496353797,0.30769230769230765,0.1818181818181818,0.30769230769230765
+Did it hurt before that?,"What kind of pain were you feeling, was it new pain?",0.09090909090909091,0.12500000000000003,0.0,0.12500000000000003
+The recent injury made it worse?,"If you had to rank the pain from the days that it would hurt more, why would you rate it from one to ten, ten being the worst pain?",0.034482758620689655,0.1142857142857143,0.0,0.1142857142857143
+"I see. So, near your ulnar side and not as much the radial side. You said earlier your wrist was already sore, right? Why was that?",What kinds of treatments have you done in the past?,0.02018965179946554,0.1111111111111111,0.0,0.05555555555555555
+"Thank you. Oh, wow. It says here you have chronic scapholunate problems and other problems too.",Thank you.,0.0009118819655545162,0.2222222222222222,0.125,0.2222222222222222
+It's just some ligament damage in your wrist. I'll see what we can do to get your wrist feeling better.,You had a wrist injury on your scapholunate ligament.,0.06546107295780162,0.1935483870967742,0.0,0.1290322580645161
+"So, just to confirm, no current medications?","Before today, have you had any surgeries?",0.0,0.0,0.0,0.0
+Any allergies to medicine he might have?,Are you allergic to any medications?,0.14108028748176898,0.30769230769230765,0.0,0.15384615384615383
+Okay.,Thank you for the information.,0.0,0.0,0.0,0.0
+"I will ask you a few questions about your social history, sir.",Are you married?,0.016595689455954646,0.13333333333333333,0.0,0.13333333333333333
+Are you married?,I was asking for a reason.,0.0,0.0,0.0,0.0
+Do you smoke or drink? Have you ever tried any illegal drug?,I'm so sorry to hear that.,0.0,0.0,0.0,0.0
+Are you working?,Anyone here with you today?,0.2,0.25,0.0,0.25
+How active will you call yourself?,Do you smoke or drink?,0.1637461506155964,0.1818181818181818,0.0,0.1818181818181818
+Have you been checking your blood sugar regularly?,How are you doing today?,0.10976232721880529,0.15384615384615385,0.0,0.15384615384615385
+That's great to hear. Do you mind if I take a look at the readings you brought with you today?,How is your sugar level looking? Are you within the target limits?,0.08556951983876533,0.18181818181818182,0.0,0.12121212121212123
+"Have you been experiencing any dizziness, excessive urination, fatigue, weight loss, or any other symptoms?","While I'm waiting to view your equipment, what are we looking to track while using this equipment?",0.0,0.0,0.0,0.0
+I have a copy of your blood work right here and it looks like your cholesterol is still pretty high. I'd like you to continue taking the cholesterol medication I prescribed and monitoring your cholesterol intake.,"So, I, ah, the notes I have here say that you have high cholesterol?",0.07419578112271458,0.3137254901960784,0.04081632653061225,0.19607843137254902
+"For this reason, I'd like to schedule another follow up appointment and get you in in a few weeks after another blood draw.","Well, your blood work shows that, according to your chart, you are total and LDL cholesterol levels are higher than they should be. We...",0.16666666666666666,0.16666666666666666,0.0,0.08333333333333333
+"Great, good. And how are your sinus symptoms since starting the Z Pak?",Are you experiencing any sinus pressure or pain?,0.06690767856487378,0.1904761904761905,0.0,0.1904761904761905
+Wonderful. Okay then. Let me have a look at your sinuses and you'll be on your way.,"Good, good. So, I am going to send your prescription to your favorite pharmacy and make sure they and you receive a copy of the treatment plan.",0.14814814814814814,0.22222222222222224,0.04651162790697675,0.13333333333333333
+What brings you into the office today?,And you have had loose stools for several weeks now?,0.1,0.11764705882352941,0.0,0.11764705882352941
+What has been going on with your stomach? What are your symptoms?,How long has it been really bad?,0.13986904558770089,0.2105263157894737,0.0,0.2105263157894737
+When did the diarrhea start?,How often do you have a loose or watery bowel movement?,0.0,0.0,0.0,0.0
+How many times of day do you have diarrhea?,How many times a day would you say it is? Ganong?,0.45454545454545453,0.5,0.22222222222222224,0.5
+Any problems with your eyesight? Like blur or double vision?,Any diplopia?,0.00915781944436709,0.16666666666666669,0.0,0.16666666666666669
+Any partial loss of vision or blind spot?,How about scatology or other visual changes?,0.12383969996431167,0.13333333333333333,0.0,0.13333333333333333
+"So, no loss vision, right?",So your vision is not impaired?,0.0,0.3636363636363636,0.0,0.3636363636363636
+What brings you into the office today?,What seems to be the problem?,0.28216057496353797,0.30769230769230765,0.0,0.30769230769230765
+"Strange, in what way?",How so? Is there something going on with your family or personal life that is stressing you out?,0.0,0.0,0.0,0.0
+That must have been very scary for you. How long did you feel disoriented?,It is possible that you just blanked out. But is this happening more often and do you remember anything from the episode the other day?,0.04,0.15384615384615383,0.0,0.15384615384615383
+Has anything like this happened before?,Let's run some test and see if we can get to the bottom of this.,0.0,0.09090909090909091,0.0,0.09090909090909091
+I would like to send you to a specialist to get some cognitive tests done.,"Have any of them been shock, surprise, or bad news that could have caused a blackout? Or do you have a history of epilepsy in your family?",0.07407407407407407,0.09523809523809523,0.0,0.09523809523809523
+"I'm going to run through a list of symptoms and if you're experiencing one or more of these, please let me know.","Do you have any fever, cough, or shortness of breath?",0.060238842382440407,0.17647058823529413,0.0,0.17647058823529413
+You had previously mentioned that you sometimes experience an overactive bladder. Are you having any pain with urination or other urinary symptoms along with it?,"Are you experiencing any headaches, muscle soreness, or joint pain?",0.08925206405937193,0.28571428571428575,0.06060606060606061,0.22857142857142856
+"How about abdominal pain, excessive thirst or eating?","Have there been any changes in your bowel movements? Any diarrhea or constipation? Are your having any difficulty maintaining hydration, has there been a change in your ability to urinate?",0.03333333333333333,0.052631578947368425,0.0,0.052631578947368425
+"And no constipation, diarrhea, or heartburn?","How about any problems maintaining or controlling your blood sugars? Are you peeing excessively, always thirsty, or are you hungry all the time?",0.043478260869565216,0.06896551724137931,0.0,0.06896551724137931
+"How about chest pain or tightness, shortness of breath, headaches, or fever?","Any stomach problems such as constipation, or diarrhea? Are you experiencing any heartburn, nausea, vomiting, or any difficulty swallowing?",0.10526315789473684,0.12903225806451615,0.0,0.12903225806451615
+"Any problems with your skin, muscles, or joints?",Any chest pain or chest tightness?,0.23884377019126307,0.28571428571428575,0.0,0.28571428571428575
+I see. I'd like to order an ultrasound of your kidneys and run a urine test here in our lab.,Any body rash?,0.0,0.0,0.0,0.0
+Anyone have asthma at home?,Is anyone else in your family sick?,0.0,0.16666666666666666,0.0,0.16666666666666666
+Okay.,How about any type of long term diseases like high blood pressure or diabetes?,0.0,0.0,0.0,0.0
+Any other diseases like kidney problems?,Which one?,0.0,0.0,0.0,0.0
+Any rheumatological disorders?,The charts are actually showing rheumatologic disease too?,0.0,0.18181818181818182,0.0,0.18181818181818182
+"Your E K G looks good. Rhythm is normal. Your axis is somewhat leftward, but this is a normal variation. It is not an abnormal finding and in most cases does not need any further treatment.",How is he feeling?,8.386565697562796e-05,0.049999999999999996,0.0,0.049999999999999996
+Your CBC and BMP came back normal and your cardiac enzymes were negative x1.,They are normal.,0.0,0.11764705882352941,0.0,0.11764705882352941
+Do you know what they are?,EKG is normal too. Your heart rate seems to be normal that is a good sinus rhythm. I also looked at your results they had noted that your axis is somewhat leftward. I am not sure how concerning that is but I just wanted to make sure you know all the details.,0.057692307692307696,0.10344827586206896,0.03571428571428571,0.06896551724137931
+What are your current medications?,Hm Hm. Did anything change with his medicines?,0.0,0.0,0.0,0.0
+How old is the patient?,"Your daughter has a foreign body obstructing her airway, and I'll be removing it, today. We took her to the O-R last night and intubated her to maintain an open airway.",0.03225806451612903,0.052631578947368425,0.0,0.052631578947368425
+She's seventeen years old.,Do you see her O-R notes on your Patient Portal?,0.0,0.0,0.0,0.0
+Did they determine what was obstructing her airways?,I do. Let me take a look.,0.0,0.0,0.0,0.0
+"Yes, they found a two millimeter fishbone lodged in her throat. She had to be intubated and taken straight to the O R.",It appears the F-B is a fishbone you have mentioned last night. How old is the patient?,0.12399150399935213,0.14634146341463414,0.0,0.14634146341463414
+"Hello there, how are you doing?",Looks like you are doing your rounds in the hospital today. How's today's schedule look?,0.13333333333333333,0.3478260869565218,0.0,0.1739130434782609
+"Yeah, same old, same old.","Good, thank you. I'm really busy today. But isn't everything going good since I get to help you out?",0.0,0.0,0.0,0.0
+"So, looks like we're here to discuss your diet. Is that right?","I have a followup dietary consultation for hyperlipidemia, hypertension, and possible metabolic syndrome.",0.0,0.0,0.0,0.0
+"Okay, let me look through your chart. It looks like you have high lipid levels, high blood pressure and a possibility for a metabolic syndrome.",How have you been the past eleven weeks?,0.029858242066679905,0.12121212121212122,0.0,0.06060606060606061
+"Yeah, tell me did you follow the meal plan that we gave to you?",That's why I'm here to help. Tell me what's been going on?,0.14108028748176898,0.2758620689655172,0.07407407407407408,0.1379310344827586
+"Okay, did it help?",Which one are you talking about?,0.0,0.0,0.0,0.0
+"Did you follow it exactly as you are, as you were asked to do?",Did you exercise with your diet?,0.08786571270524224,0.2,0.1111111111111111,0.2
+"Okay, tell me what kind of activities are you doing? How much physical activity are you doing on a regular basis?",How much were you exercising?,0.024457322387019725,0.23076923076923073,0.08333333333333334,0.23076923076923073
+That's good. Gardening gets-- can get hard and it helps you keep active.,And you still saw weight gain?,0.05190053731909962,0.2,0.0,0.2
+Tell me what brings you here today? Like how can I help you?,So then what happened?,0.026349806140466083,0.11764705882352941,0.0,0.11764705882352941
+Okay. What were the results with your South Beach Diet then? Was it effective?,Was that working for you?,0.03305977764431731,0.10526315789473682,0.0,0.10526315789473682
+That's good. Then what's the issue?,I don't recommend the South Beach Diet for you.,0.1111111111111111,0.11111111111111112,0.0,0.11111111111111112
+I appreciate your honesty. You don't know how happy you made me by saying that.,"Okay. So you just fell off the wagon, but I understand and I appreciate it and you're back so let me help you. How can I help you get that weight off in a safe manner and in the right way. I don't really want to do anything drastic, so we will take it one step at a time.",0.0847457627118644,0.23376623376623376,0.05333333333333334,0.15584415584415584
+Let's set a plan for you.,Thank you for the information.,0.1637461506155964,0.3333333333333333,0.0,0.16666666666666666
+How're you feeling today?,How long have you been short of breath sir?,0.1111111111111111,0.2857142857142857,0.0,0.2857142857142857
+I'm sorry. Why is that?,"I'm sorry you're having a hard time, but can you give me a rough estimate. When did it start?",0.05263157894736842,0.22222222222222224,0.16000000000000003,0.22222222222222224
+How long has this been going on?,And how has it been?,0.13406400920712788,0.5,0.0,0.5
+Are you experiencing any leg pain or swelling?,"Past three days, I see. Have you been getting enough Exercise?",0.09090909090909091,0.10526315789473685,0.0,0.10526315789473685
+How about chest pain or anything like it?,Thanks for the information.,0.0,0.0,0.0,0.0
+"I must say, this is concerning. I'd like you to get a C T scan of your chest so we can see what's going on. For now, your pulse ox is in the high nineties so you won't be needing supplemental oxygen at this moment in time. Do you notice the shortness of breath getting worse when you're moving around?",Do you have time to enjoy the Healthy Incentive program that is in place here?,0.01991482734714558,0.17721518987341772,0.051948051948051945,0.10126582278481013
+"Okay, I see. And the frequency by which your're short of breath is new for you, correct?","How about Wellness programs we have here, they very thorough and useful.",0.0,0.06666666666666667,0.0,0.06666666666666667
+Do you happen to have a history of asthma?,"Okay, please check our Healthy Incentive program.",0.0,0.0,0.0,0.0
+"Hi, how are you?","Hello, Madeline! Back for your cycle seven, we are going to be doing Ifosfamide, mesna and VP-sixteen.",0.058823529411764705,0.0909090909090909,0.0,0.0909090909090909
+"That's good. I gave you cycle seven ifosphomide, mesna and VP 16 chemotherapy.",Good to hear. Let us get you all fixed up.,0.0740818220681718,0.16666666666666666,0.0,0.16666666666666666
+"You have hypothyroidism, correct?",Can you tell me about any changes in the ability to see or hear?,0.0,0.11111111111111112,0.0,0.11111111111111112
+Have you been watching your blood sugar?,"Everything looks good related to your ears, eyes, nose, and throat. No one has suddenly lost their vision, experienced any unusual changes in their eye sight, or reported visions of double. Same goes for your hearing, no one has had a sudden loss of ability to hear or experienced any pain or pressure in the ear.",0.017857142857142856,0.031746031746031744,0.0,0.031746031746031744
+Good to hear. I see here you were diagnosed with I B S and bowel abnormalities a few years ago.,"Ah yes, your anemia.",0.0,0.0,0.0,0.0
+"I see my nurse didn't have the chance to go through the review of systems with you, so I will go through them now.","Yes, it must be difficult dealing with this IBS and bowel abnormalities. I am glad your C Diff is getting better. I don't see any signs of shortness of breath or chest pain. Have you been coughing up blood or noticed anything different about your sputum production?",0.10638297872340426,0.2191780821917808,0.0,0.1095890410958904
+"Any fever, chills, or night sweats?",No sudden night time shortness of breath or sudden chest pain.,0.18181818181818182,0.23529411764705885,0.0,0.11764705882352942
+Any unusual weight gain or loss?,"I am sure you are aware, but these signs could be symptoms of a heart attack. Other signs could include incoordination, slurred speech, or a sudden headache. After reviewing your labs from yesterday, your white blood cells are still a bit high, it could be sign of acute infection, so we are keeping a close eye. And if you notice any urinary problems let us know because we would need to further evaluate.",0.0136986301369863,0.05063291139240506,0.0,0.02531645569620253
+"Any visual changes, in one or both eyes?","No, she reports no fever, chills or sweats.",0.125,0.125,0.0,0.125
+Any hearing changes or ear problems?,"And you have been monitoring your blood sugars, correct? Are you still getting those low and high blood sugar spikes?",0.0,0.0,0.0,0.0
+"I know I already asked you about your hypothyroidism, but I wanted to check if you are having any excessive thirst or frequent urination?","Okay. You do suffer from hypothyroidism, correct? And we did put you on Metamucil and a Bisacodyl for the IBS. We also need to connect you with a nutritionist to discuss the best options for your thryoid.",0.13513513513513514,0.1639344262295082,0.0,0.13114754098360656
+"Any shortness of breath, cough, coughing up excessive mucus or blood, or breathing problems?","Good, and no problem swallowing or mouth lesions?",0.059045819092626836,0.18181818181818182,0.0,0.09090909090909091
+"Okay, how about any kind of chest pain or discomfort, trouble breathing at night or when lying down, palpitations or heart attacks?","Hm, your white blood count is a bit higher. Could be a sign of an acute infection and with your history of C Diff, I recommend getting plenty of rest. Also, let us know how your bowel movements are post recent diagnosis and treatment.",0.045454545454545456,0.060606060606060615,0.0,0.030303030303030307
+"Any urinary problems, anything with your kidneys?",Thank you for the information.,0.0,0.0,0.0,0.0
+Any abnormal vaginal bleeding or discharge?,Okay tell me do you have fever?,0.0,0.0,0.0,0.0
+"Good, I know you have had some anemia in the past, any new problems with that? Any blackouts, convulsions, seizures, paralysis, strokes, or headaches?",Any chills or night sweat?,0.008948308742466242,0.13793103448275862,0.0,0.13793103448275862
+"Alright, good. That is it for all of my symtom questions. Thank you for bearing with me for that.","Okay. Let's see, no weight loss?",0.0,0.0,0.0,0.0
+How old are you?,"Hello there, ma'am. How are you feeling today?",0.25,0.46153846153846156,0.18181818181818182,0.46153846153846156
+Are you right handed or left handed?,"Mmm good. And remind me again, what's your dominant hand?",0.0,0.1111111111111111,0.0,0.1111111111111111
+"So, you have this long standing on and off lower back pain on your right side. And it all happened after your motor vehicle accident in September of two thousand and five.","Great, now tell me dear, do you have a right low back pain issue that keeps coming and going on since long or is it something new?",0.27698346330043067,0.3050847457627119,0.07017543859649122,0.20338983050847456
+Does anything elevate your pain or decreases it?,"Okay, and in the past did you take any meds for that?",0.0,0.0,0.0,0.0
+Is there any symptom like weakness or pain in your left leg or your right leg?,"Okay, so no improvements with walking or meds, right?",0.051047313781769625,0.16,0.0,0.16
+Any change in your bowel movement or your urine function?,And did you ever try epidural shots for this pain?,0.0,0.0,0.0,0.0
+Were your symptoms sudden or were they increasing gradually?,Okay let me check your chart this time and see what all you have done.,0.06666666666666667,0.08333333333333334,0.0,0.08333333333333334
+When did this happen? When did you get the injection?,"Oh, I see. When did you get that shot in the back? And was that only one time or multiple shots over time?",0.21739130434782608,0.30303030303030304,0.1935483870967742,0.30303030303030304
+"Okay, let me just quickly check your legs. They look full in strength, and they also seem symmetric to me. Can you raise your leg? Like straight up?","Okay, and how did your legs feel? Did you notice any weakness? Any bowel or bladder issue, n stuff?",0.13109555049426316,0.2127659574468085,0.04444444444444444,0.1702127659574468
+"Yeah, yes. Straight leg raising is also normal.","How would you rate your pain on scale of one to ten, ten being extreme pain?",0.0,0.0,0.0,0.0
+Are you married?,Are you married?,1.0,1.0,1.0,1.0
+Are you working?,And do you work anywhere? Or how do you occupy your time?,0.08333333333333333,0.26666666666666666,0.15384615384615385,0.26666666666666666
+Do you drink or smoke or have taken any kind of drugs?,That's nice. Do you drink or smoke?,0.27973809117540177,0.5,0.4444444444444444,0.5
+"Have you ever had surgery, ma'am?","So, no past health issues?",0.0,0.0,0.0,0.0
+"Well, it could be anything from a joint replacement to a C section.",Just health related.,0.0,0.0,0.0,0.0
+"Oh, no. I've never had surgery. I had all of my children naturally.",Anything neurological?,0.0,0.0,0.0,0.0
+Are you taking any medication?,What medications are you currently taking?,0.16666666666666666,0.7272727272727272,0.22222222222222224,0.5454545454545454
+"Okay, let me take a look.","Maybe the nurse did not pick up on the changes given that the new medication list we have shows the Morphine, Darvocet, Flomax, and Avodart. Are you also still taking Ibuprofen?",0.0,0.05405405405405405,0.0,0.05405405405405405
+"Yes I see Morphine, Darvocet, Flomax, Avodart and Ibuprofen.",Thank you for the information.,0.0,0.0,0.0,0.0
+Did you see that patient today? His general appearance looked good.,I hope you took a good amount of calories. The process can be time consuming but make sure you take care of your diet.,0.041666666666666664,0.1142857142857143,0.0,0.1142857142857143
+"Yeah, the patient was well developed and well nourished.",How's he doing by the way?,0.1010884432854389,0.125,0.0,0.125
+Was he in any acute distress?,"Yeah, he seems to be hanging in there. I just want to observe him a little longer before I feel completely comfortable. Good news is, I don't have to put him in a hospital bed yet. At least not for now.",0.04878048780487805,0.08333333333333333,0.0,0.08333333333333333
+No.,Looks like everything between you two is going good. I saw him cracking some jokes out there. He is actually quite funny.,0.0,0.0,0.0,0.0
+Do you have any family medical history?,Any past surgeries that you had which come to your mind?,0.09090909090909091,0.2222222222222222,0.0,0.1111111111111111
+"Hi, how are you?",Can you please tell me what kind of pain you are experiencing and where is located?,0.0625,0.2,0.0,0.1
+Where exactly do you have pain?,How would you grade it?,0.1637461506155964,0.1818181818181818,0.0,0.1818181818181818
+"Hm, do you have any nausea vomiting?",If ten means severe and one is well tolerated. How would you rate it?,0.07142857142857142,0.09523809523809523,0.0,0.09523809523809523
+How is your appetite are you having a proper diet?,Did you notice any change in your appetite?,0.19470019576785122,0.33333333333333326,0.125,0.22222222222222224
+Okay.,Did you ever have a quick little seizure or did you ever get unconscious due to anything?,0.0,0.0,0.0,0.0
+"Any fever, diarrhea headache or joint pain?",And you do not have joint pain or arthritis?,0.2222222222222222,0.375,0.14285714285714288,0.25
+Did you ever have any seizure or have loss consciousness or any stroke like symptoms?,"Looking in your past medical history, you are quite healthy I would say. You do not have any major past illness. Good.",0.13636363636363635,0.16216216216216214,0.057142857142857134,0.16216216216216214
+"So, I just reviewed your past medical and surgical history. Tell me something, does anyone else in your family have this kind of chest pain?","Okay, how about surgeries? Did you ever go under the knife?",0.0,0.0,0.0,0.0
+"Hm, okay.","That's great. So, no history of any trauma or something like that?",0.0,0.0,0.0,0.0
+"Good morning, ma'am.","Hello, how old are you?",0.0,0.0,0.0,0.0
+What's a young lady like you doing in my office today?,"Good morning, miss.",0.0,0.0,0.0,0.0
+"So, what seems to be the problem today?","You're barely over retirement, you still have a while yet before you're considered old. So, you said you have a history of knee problems, correct?",0.04,0.11428571428571428,0.0,0.11428571428571428
+"I see, how have you been treated for this in the past?",Have you had any treatments for it?,0.13986904558770089,0.3157894736842105,0.11764705882352942,0.3157894736842105
+What kind of symptoms are you having?,What type of knee surgery did you have?,0.375,0.5333333333333333,0.15384615384615383,0.5333333333333333
+"Okay, did they do any x rays today?",Do you know which kind of knee surgery?,0.0,0.125,0.0,0.125
+"Good, well, these show some malalignment of the hardware from your previous surgery.","Oh great, can you give me a name and I'll look it up in the computer?",0.0625,0.06666666666666667,0.0,0.06666666666666667
+"Good afternoon, sir, and who is this with you today?","Hello sir, how are you doing? Good to see you again.",0.2727272727272727,0.28571428571428564,0.0,0.1904761904761905
+"I'm doing well, but how are you? How have you been doing since I last saw you?","Fine, thanks. How have you been doing since we last saw you? No symptoms I hope?",0.5871331642584223,0.5882352941176471,0.43749999999999994,0.5294117647058824
+"So, no symptoms of heart disease, or failure?",That's good. Have you had any symptoms of C A D or congestive heart failure?,0.3333333333333333,0.4166666666666667,0.09090909090909091,0.3333333333333333
+Did you follow up with Doctor X?,How are you doing with your d I D M?,0.2,0.23529411764705882,0.0,0.23529411764705882
+Great! How has your blood sugar been?,Have you had any symptoms of high or low blood sugar?,0.09090909090909091,0.2222222222222222,0.125,0.2222222222222222
+Have you had any falls since your last visit?,Have you had any falls?,0.35946317129377725,0.7142857142857143,0.6666666666666666,0.7142857142857143
+How is your knee doing?,"That's wonderful. You told me that your knee hurts, correct?",0.2,0.25000000000000006,0.14285714285714288,0.25000000000000006
+How are you managing this pain?,Are you taking Tyleonol?,0.15163266492815836,0.4,0.25,0.4
+We could look into it. I'm glad to see your spirits are high.,"Well, we could look into that.",0.15570161195729887,0.4,0.33333333333333337,0.4
+"Are you going to the bathroom regularly, no incontinence?","I am very encouraged by his smile. I take that to mean his spirits are good. Can you remind me if he has had any memory problems, or urinary issues? Also, did they mention if he is thinking clearly?",0.05128205128205128,0.125,0.0,0.08333333333333333
+Any memory issues?,"Great, he seems all good.",0.0,0.0,0.0,0.0
+"That is just normal male breast tissue, nothing to worry about.",Do you do regular check ups with the Urologist?,0.0,0.0,0.0,0.0
+You look good? What are you eating these days?,"Good afternoon, ma'am.",0.0,0.15384615384615383,0.0,0.15384615384615383
+You look great! Keep doing whatever you're doing. It's working for you.,You look well developed and well nourished.,0.13986904558770089,0.19047619047619047,0.10526315789473684,0.19047619047619047
+I see here that you have a history of frequent U T I's. Are you currently experiencing any urinary symptoms?,"Have you been experiencing night sweats, chills, weight loss?",0.06546107295780162,0.2,0.0,0.2
+"That's good news. Are you having other symptoms, such as fever or chills?","Nothing so far, right?",0.0,0.0,0.0,0.0
+How has your weight been? Has it been pretty stable since you have been bed bound?,Do you have a cough or chest congestion?,0.09196986029286058,0.16666666666666666,0.09090909090909091,0.16666666666666666
+"Okay, now for the routine stuff. Any coughing, chest congestion or chest pain?","How about shortness of breath, chest pain, or feeling your heart race suddenly?",0.15384615384615385,0.23076923076923078,0.08333333333333333,0.15384615384615385
+What abut shortness of breath? Any type of bleeding in your feces or rectum?,"Any loss of appetite, nausea or vomiting?",0.15766261764490386,0.2857142857142857,0.0,0.2857142857142857
+"Great to hear. Any constipation, stomach pain, nausea, or vomiting?","Any pain, bloating, or other symptoms in your G.I. Tract?",0.3,0.28571428571428564,0.0,0.28571428571428564
+Did you have any medical issues in the past?,Just to summarize I see in your notes that you have been diagnosed with prostate cancer correct?,0.17647058823529413,0.23076923076923078,0.08333333333333333,0.15384615384615383
+Anything else?,I also see here that you have some urine leakage problem correct?,0.0,0.0,0.0,0.0
+Any surgery in the past?,Okay and you also had a hip replacement in the left hip area correct?,0.14285714285714285,0.21052631578947364,0.11764705882352941,0.21052631578947364
+Is the patient restrained?,I would like to put a palm protector on your hand miss. Is that okay?,0.06666666666666667,0.10526315789473685,0.0,0.10526315789473685
+"No, but she does have a palm protector in her right hand.",Don't worry we don't use any kind of restraint system here.,0.0,0.0,0.0,0.0
+"Welcome to the clinic, sir!","What is your living situation, sir?",0.0,0.1818181818181818,0.0,0.1818181818181818
+"Do you use tobacco product, alcohol, or recreational drugs?",Do you own a home?,0.17973158564688863,0.2857142857142857,0.16666666666666666,0.2857142857142857
+How much do you smoke per day?,Okay. How much do you smoke?,0.5643211499270759,0.7692307692307692,0.7272727272727272,0.7692307692307692
+Do you live at home with anyone?,Good. Keep working on quitting one if you can. Cigarettes are really bad for your lungs.,0.0625,0.08695652173913043,0.0,0.08695652173913043
+What do you do for work?,Wife: I mean you're a developer so we can have an at home office together.,0.0,0.09090909090909091,0.0,0.09090909090909091
+I am sorry to hear that.,"Oh, I see. Do you hope to go back to work soon?",0.16666666666666666,0.2222222222222222,0.0,0.2222222222222222
+Does anyone else in your family suffer from high blood pressure?,Do you have any other medical conditions?,0.0,0.0,0.0,0.0
+How about diabetes?,"Oh, okay, got it.",0.0,0.0,0.0,0.0
+"I took her R O S, and everything looks normal except for mild soreness in her arm due to the vaccine.",Did you experience any bad reactions at your last visit?,0.0,0.0,0.0,0.0
+"Okay, thank you for updating the notes.",Any numbness? Tingles in hands? Sudden moisture? Discontinuous warmth or tickling when they scratch your arm.,0.0,0.0,0.0,0.0
+"Sure, no problem.",Thank you for the information.,0.0,0.0,0.0,0.0
+How're you feeling after the Prednisone?,"She had an extremely reactive skin. I am not sure, if she has been stung by a fire ant, or some other insect.",0.0,0.0,0.0,0.0
+"This was your first wasp sting, correct?",Yes. That's a good sign. Did you notice any other symptoms after being stung?,0.0,0.0,0.0,0.0
+Did you ever have had any surgery?,"So, have you recently had any major illnesses or surgeries?",0.4,0.588235294117647,0.13333333333333333,0.47058823529411764
+"Do you have any history of psychiatric disorders, sir?",Are there any allergic reactions or side effects you experience from medications that you are aware of?,0.11764705882352941,0.23076923076923078,0.0,0.15384615384615383
+"Well, it could be anything like depression, or mood disorders. Does anything like that ring any bells?","No, no. I mean for medications like penicillin or aspirin have caused hives or nausea in some people.",0.1111111111111111,0.11428571428571428,0.0,0.11428571428571428
+"Hi, how are you all?",Hello. Looks like we have your mother joining us today. Is that correct ma'am?,0.0,0.0,0.0,0.0
+How are you related to the patient?,Thank you for filling the form and letting me know what medications she's taking. Did you discuss her list of medications with her mother as well?,0.07692307692307693,0.11764705882352941,0.0,0.11764705882352941
+Do you suspect any abuse of drugs?,Perfect.,0.0,0.0,0.0,0.0
+"I suspect there was some use of drugs as well. We can't tell which drug she was taking, but It looks like she was taking something.",Thank you for the information.,0.0,0.0,0.0,0.0
+"I hope you have understood her case very well and if there are any questions, please reach out to me.","Anytime, ma'am.",0.0,0.0,0.0,0.0
+Have you had any G I issues?,And how was your stomach before the diagnosis of cll/?,0.0,0.0,0.0,0.0
+So no symptoms other than what we discussed earlier?,"How about heart, lungs, bones, or tumm? Did you ever feel any symptoms relating to these areas?",0.058823529411764705,0.07692307692307691,0.0,0.07692307692307691
+Looks like you're in good shape. We're almost done. I just need to confirm a few more things. Seems like they all will be negative.,Thank you for the information.,0.0,0.0625,0.0,0.0625
+Any heart issues or genital or urinary tract issues?,Do you smoke or drink?,0.08986579282344431,0.14285714285714285,0.0,0.14285714285714285
+"Great. And lastly, how is your range of motion?",Thank you for the information.,0.0,0.0,0.0,0.0
+"I just need a few pieces of background information, before we get started.","Any drug screen done before, i mean just to remember.",0.0740818220681718,0.2608695652173913,0.0,0.17391304347826086
+"What do you do for a living, sir?",When was your last O U drug screen?,0.0,0.0,0.0,0.0
+"Okay, and do you drink or smoke?",Okay. What about smoking or alcohol?,0.14108028748176898,0.4615384615384615,0.0,0.30769230769230765
+"Good, are you married?",Good. What is known about out the activities f your daily living?,0.0,0.125,0.0,0.125
+Do you two live together?,So A D. L. wasmmoderate_success_GRANTED,0.0,0.0,0.0,0.0
+How would you describe your activity level day to day?,Thank you for the information.,0.07357588823428847,0.13333333333333333,0.0,0.13333333333333333
+"Well, anything from bathing, dressing, feeding, etc. We call these activities of daily living, how would you rate that?","Yes, things of that nature.",0.012162012525043595,0.16666666666666666,0.0,0.16666666666666666
+"Okay, and do you remember when you had your last drug test?",Thank you for the information.,0.0493193927883213,0.11764705882352941,0.0,0.11764705882352941
+Have you ever been hospitalized for anything?,Any medical problems?,0.0,0.0,0.0,0.0
+And when was this?,That's good.,0.0,0.0,0.0,0.0
+Oh gosh. How long have you been skateboarding?,Tell me more about it.,0.0,0.0,0.0,0.0
+Do you skate in your neighborhood or at a skatepark?,What happened?,0.0,0.0,0.0,0.0
+"Nice. I've never been skateboarding, but I've always been in awe of kids like you who know how to do cool skateboard tricks.",Thank you for the information.,0.005464744489458514,0.06666666666666667,0.0,0.06666666666666667
+How old are you madam?,"Good afternoon miss, what brings you in today?",0.125,0.15384615384615385,0.0,0.15384615384615385
+Can you tell me how this all started?,Is there any excessive fatigue?,0.0,0.0,0.0,0.0
+"Hm, how about chest pain or palpitations?","Any pain, shortness of breath or nausea?",0.14285714285714285,0.2857142857142857,0.0,0.2857142857142857
+"Do you have any cough, bloody sputum or any wheezing sensation?",Do you cough up mucous with coughing?,0.16134803485935978,0.33333333333333326,0.125,0.33333333333333326
+"How about any fainting spells, feeling like you are going to pass out?",Do you have a hard time breathing?,0.06062469223956427,0.1,0.0,0.1
+How long have you been feeling like this?,Orare you have any wheezing?,0.21952465443761057,0.3076923076923077,0.0,0.15384615384615385
+How're you feeling?,"How are you feeling, sir? Are you getting migraines again?",0.1,0.4285714285714285,0.16666666666666666,0.4285714285714285
+How often do you get migraine headaches?,Where does it hurt the most?,0.0,0.0,0.0,0.0
+I understand. Do you see a neurologist?,Well let's order a medication to get you through this.,0.2,0.2222222222222222,0.0,0.1111111111111111
+I can write you a referral because it's always best to get a second opinion or a brain scan.,"Make sure you find one, it'll help.",0.02572747316399319,0.14285714285714288,0.0,0.14285714285714288
+"So, tell me any chest pain or shortness of breath?",Do you have any history of heart ailments?,0.19470019576785122,0.22222222222222224,0.0,0.22222222222222224
+"Any bleeding disorder, prolonged bleeding or anything?","Okay, have you found it hard to breathe or experienced shortness of breath?",0.07692307692307693,0.1,0.0,0.1
+And I already have G I and urinary tract reports. Anything else?,Are you diabetic or have any other-type of hormone imbalance?,0.0818730753077982,0.08695652173913043,0.0,0.08695652173913043
+Any past surgeries I should know of?,Have you had surgery before?,0.0,0.16666666666666666,0.0,0.16666666666666666
+Do you remember which side?,Are you sure it was the femur?,0.14285714285714285,0.16666666666666666,0.0,0.16666666666666666
+Let me pull up your records.,Do you remember the type of fracture?,0.0,0.0,0.0,0.0
+"Okay, I see. It looks like you had a repair of the right intertrochanteric femur.",Hip or I T.,0.015981965301676893,0.10526315789473685,0.0,0.10526315789473685
+Hello there!,"How long has it been since your last visit, ma'am?",0.0,0.0,0.0,0.0
+I am good. Do ypu mind stating your age and waht brings you in today?,I am doing great. Welcome back. I see you are here after four months. How is everything going with the blood pressure medications?,0.13043478260869565,0.2105263157894737,0.05555555555555555,0.2105263157894737
+"Hm, what kind of pain is it? Like sharp pain or dull?","Ouch, okay let me examine you.",0.0,0.0,0.0,0.0
+"Okay! So, it's on the right side?",Are you able to exercise and walk like before?,0.0,0.0,0.0,0.0
+And when was your last visit to renal clinic?,Do you feel shortness of breath or feel like you cannot breathe?,0.0,0.0,0.0,0.0
+Hm and you mentioned you are doing much better than before in terms of managing your high blood pressure with the current medication?,Your blood pressure looks great today by the way. I was comparing it to the readings you had previously.,0.17055952314366876,0.23809523809523808,0.049999999999999996,0.1904761904761905
+"Yes, it is much better than any of your previous visits. And no side effects, right?",Do you have chest pain or abdominal pain?,0.0,0.0,0.0,0.0
+"Hm, and any other problem or any uneasiness?","Any constipation or diarrhea, nausea or vomiting?",0.12383969996431167,0.26666666666666666,0.0,0.26666666666666666
+"Any nausea, vomiting or diarrhea?","Any dizziness, lightheadedness or weakness?",0.4,0.4000000000000001,0.0,0.4000000000000001
+"Any weakness, dizziness or lightheadedness?",Do you have any history of extremity pain?,0.0,0.15384615384615385,0.0,0.15384615384615385
+Any constipation or stomach pain?,Thank you for the information.,0.0,0.0,0.0,0.0
+"Any shortness of breath, chest pain or difficulty breathing?",And no untoward sides effects from any medications.,0.0,0.11764705882352941,0.0,0.11764705882352941
+How bout any breathing issues while you sleep or when you lay down?,Thank you for the information.,0.04037930359893108,0.1111111111111111,0.0,0.1111111111111111
+And do you exercise?,Thank you for the information.,0.2,0.22222222222222224,0.0,0.22222222222222224
+Okay.,Do you feel out of breath while exercising?,0.0,0.0,0.0,0.0
+And you mention it is kind of radiating from your lower back.,And you are not having pain in your legs?,0.23884377019126307,0.28571428571428575,0.10526315789473685,0.28571428571428575
+And no pain in your toes or lower legs?,Thank you for the information.,0.0,0.0,0.0,0.0
+"Okay, did you try any medicines?",And no pain radiating out into your legs?,0.0,0.0,0.0,0.0
+"Okay, let's try something stronger, I will write you a prescription for it. You can take it for a week and if your pain does not improve, we will take some x rays.",Do you try to take any medications for the pain?,0.0401035374891215,0.22727272727272727,0.0,0.1818181818181818
+How old are you again eighty-five?,"Hello everyone! Welcome back to the psychiatry clinic, I have a return patient today.",0.0,0.0,0.0,0.0
+"Okay. Overall, you do look better today and these medicines should take care of the pain.","Lauren, if you could remind me, what is the chief complaint for little Tyler today?",0.12473426467088237,0.19354838709677422,0.0,0.12903225806451615
+Take care.,Welcome back Lauren. I see you have brought Tyler back today.,0.0,0.0,0.0,0.0
+Do you have any known drug allergies?,Any known medicine allergies?,0.23618327637050734,0.5454545454545454,0.2222222222222222,0.5454545454545454
+"Hello, miss. How was your weekend?",Do you drink at all?,0.0,0.0,0.0,0.0
+I see. Did you drink alcohol at the party?,"Well, let's take a look and see what's going on.",0.0,0.09523809523809525,0.0,0.09523809523809525
+Would you say you drink occasionally then?,That sounds nice. Welcome your consult to my table.,0.0,0.0,0.0,0.0
+Do you have any personal history of heart disease or diabetes?,"Before I can provide accurate care that is safe for you, let me ask a few questions.",0.0,0.07142857142857142,0.0,0.07142857142857142
+"Any family history of heart disease, diabetes or hypertension?",Any history of diabetes?,0.21487859764514256,0.6153846153846153,0.18181818181818182,0.6153846153846153
+Your bloodwork came back with borderline elevated cholesterol levels. I would like to just keep any eye on this for now. Let's have you come back in one month. We will check your cholesterol levels again.,Do you use tobacco?,8.386565697562796e-05,0.04878048780487805,0.0,0.04878048780487805
+Are you experiencing any symptoms?,Any tobacco use?,0.0,0.25,0.0,0.25
+I'm sorry to see that she's not doing well.,"Hello, doctor. This is a two month old girl who is being brought in today.",0.0,0.0,0.0,0.0
+Oh wow. We'll see what we can do for her. How's her breathing been?,Sounds like she's had a rough go of it. Is the cough a new thing for her?,0.058823529411764705,0.17647058823529413,0.0625,0.11764705882352941
+Has she been running a fever?,"I'm sorry, retract?",0.0,0.0,0.0,0.0
+Has she been feeding well?,Any trouble eating?,0.0,0.0,0.0,0.0
+Is anyone else in the family sick?,I see. Any siblings?,0.0,0.0,0.0,0.0
+How long has he been sick?,I see. Is he experiencing any diarrhea? Is he vomiting?,0.1,0.125,0.0,0.125
+You mentioned that she's been coughing a lot. Is she bringing anything up with her coughs?,How soon after feeding does she regurgitate?,0.03949329237565206,0.08333333333333333,0.0,0.08333333333333333
+Does she happen to experience similar symptoms after her feedings?,"Oh my, um, does she cough up food contents after every coughing spell?",0.15384615384615385,0.2608695652173913,0.09523809523809525,0.2608695652173913
+Any diarrhea?,"When she coughs, what is her breathing like usually?",0.0,0.0,0.0,0.0
+Are you taking any medication?,"So, are you taking any calcium and multivitamin supplements?",0.3333333333333333,0.5714285714285714,0.5,0.5714285714285714
+Hey what you got there?,What brings you in today?,0.2,0.4000000000000001,0.0,0.4000000000000001
+Oops!,"Oh, I see. So it's a boil?",0.0,0.0,0.0,0.0
+How's everything going on?,What is going on? How are you doing?,0.25,0.4615384615384615,0.18181818181818182,0.3076923076923077
+What exactly does this pressure feels like?,Are you still feeling that tingly pressure in back of your head where you felt like a water was running down on the hair? This is what you described last time that you felt water on your hair.,0.02631578947368421,0.2222222222222222,0.0,0.08888888888888889
+How frequent are these feelings? Is anything helping you? Are you taking any medications or anything else for it?,Are you feeling the same pressure and tingling or a change from the last visit?,0.15318566767292974,0.23529411764705882,0.0625,0.17647058823529413
+Is anything else going on?,How much Aleve do you take in a day?,0.0,0.0,0.0,0.0
+"It feels like insomnia to me, but what are your working hours?",Is it not insomnia?,0.0,0.25,0.0,0.25
+How is the quality of your sleep? Do you wake up many times or have sound sleep for those five hours?,Are you getting up during these five hours of sleep? Or it is like straight through?,0.27435586085499064,0.4324324324324324,0.05714285714285715,0.2162162162162162
+Have you ever lost your sleep to catch your breath?,Do you wake up at midnight and realize that you're gasping for air and you don't know what happened?,0.05263157894736842,0.06451612903225806,0.0,0.06451612903225806
+"Have you ever had surgery on any of your extremities, like your arms or legs?",Any prior surgeries?,0.0,0.2222222222222222,0.0,0.1111111111111111
+"Good, have you had any other surgeries on anywhere else?",Okay.,0.0,0.0,0.0,0.0
+Hello. It has been a long time. Nice to see you again. How can I help?,"Okay, I will start with the follow up report from the nurse, and then we will reflect upon what has changed since your last report. Looks like here is a follow up reflection. Has there been? Could be reported change here, but let me check. Oh, I am happy to see things have not changed here. Good.",0.08771929824561403,0.1643835616438356,0.02816901408450704,0.1095890410958904
+"Great! You are absolutely right. Prevention is key. Are your social history and medical conditions the same as last visit? Here, you can look at the chart.","I agree. So everything is the same since last time, right?",0.08491144694215032,0.2631578947368421,0.05555555555555555,0.21052631578947367
+Do you have any known drug allergies?,Any known allergies to drugs or food?,0.14285714285714285,0.5714285714285714,0.16666666666666666,0.42857142857142855
+"Hi, I'm the doctor that'll be treating you today.","Hi, there, sir. How are you doing today?",0.22062422564614886,0.3157894736842105,0.0,0.3157894736842105
+What's bringing you in?,What can I do for you?,0.0,0.3636363636363636,0.0,0.3636363636363636
+How long since you first noticed it?,Does the pain/tenderness resolved?,0.0,0.0,0.0,0.0
+Where on your chest?,Have you noticed an increase in size as well?,0.0,0.0,0.0,0.0
+Is it causing you pain?,Where do you feel pain or tenderness?,0.14285714285714285,0.3333333333333333,0.0,0.3333333333333333
+Has it grown in size?,What does it feel like when I poke it?,0.1111111111111111,0.14285714285714285,0.0,0.14285714285714285
+"And just to confirm what is in your chart, can you confirm your age, race, and gender.",Is it painful?,0.0,0.1,0.0,0.1
+How's she doing today?,"We don't want to change anything, just keep giving her the antibiotic and nasal decongestant drops. But please make a note that she has ongoing purulent rhinitis and highly probable sinusitis and serous otitis?",0.029411764705882353,0.049999999999999996,0.0,0.049999999999999996
+Both ears?,Thank you for the information.,0.0,0.0,0.0,0.0
+How long has she been bringing up green snot?,Thank you for the information.,0.0,0.0,0.0,0.0
+"Let's see. It looks like she may have sinusitis. After checking both ears, I noticed fluid buildup in the right middle ear. I'll go ahead and prescribe her some antibiotics and hopefully she'll be as good as new in a few days. I'd like her to come back for a follow up to make sure all the fluid in her ear is gone.",And how long has this been bothering her?,0.0,0.05333333333333334,0.0,0.05333333333333334
+Do you have any allergies?,What about food allergies? Or any kind of allergies?,0.2222222222222222,0.2857142857142857,0.0,0.2857142857142857
+How old is the baby girl?,"How old is your daughter? When you were filling out the forms, you weren't sure how to spell her first name. Is the Tarah okay? It is a beautiful name. Also, the father, is he present? Or how would you like me to refer to him? Is he Dad, Father, or male figure?",0.07547169811320754,0.13333333333333333,0.10344827586206896,0.13333333333333333
+And you both are her parents?,"She is young, but it is always exciting to meet a new patient.",0.0,0.0,0.0,0.0
+Tell me what happened in detail.,"So, what brings Tarah in today?",0.3333333333333333,0.3333333333333333,0.0,0.3333333333333333
+Was she taking any medications for that?,Poor thing.,0.0,0.0,0.0,0.0
+What kind of symptoms are showing now?,Does she is having unusual behavior again? Or is she having any of the old symptoms mentioned to me before?,0.1,0.14814814814814817,0.0,0.14814814814814817
+Does she becomes floppy like can't control her body during that phase?,That sounds like a pause or staring spell.,0.07581633246407918,0.1904761904761905,0.0,0.09523809523809525
+How long is that period?,Is it new? Or was she experiencing this before her treatment started?,0.0,0.11764705882352941,0.0,0.11764705882352941
+What are your thoughts on this? As a mother you might be spending more time with her.,"No, mom, I think it lasts somewhere around three to four minutes. I think she is supposed to be two to three times her normal duration.",0.038461538461538464,0.13953488372093026,0.0,0.13953488372093026
+"So, it is somewhere around thirty to forty seconds.","Oh, that is totally different then. It seems like it may be associated with the drug therapy. Was she ever shaking or convulsing after these episodes?",0.07692307692307693,0.1142857142857143,0.0,0.05714285714285715
+Was she having any kind of jerky motions?,"Oh, sorry, but how are the pausing events categorized?",0.0,0.0,0.0,0.0
+Have you changed her medications like the amount you are giving or anything like that?,Thank you for more information. Did her recent episode cause any unconsciousness or was she shaking?,0.1875,0.19354838709677422,0.0,0.19354838709677422
+I'm looking at the record and it says that she is supposed to take twenty M G per kilogram every day. It looks like a very low dose for her.,Thank you for telling me more. How much is she currently taking per day?,0.09111615923542012,0.26666666666666666,0.0,0.17777777777777778
+Do you have any major medical conditions that run in your family that I should know about?,You do smoke and drink I see?,0.03423586234882512,0.25,0.0,0.16666666666666666
+"Well, it could be anything from A D H D to substance abuse to epilepsy.","No it is just something many people do not like to disclose but I cannot help you, if you do not tell me wrong habits you have?",0.07407407407407407,0.09523809523809523,0.0,0.09523809523809523
+Is she taking any medications?,Do you know what kinds of medications she's been taking?,0.0,0.37499999999999994,0.0,0.25000000000000006
+Take your time.,Hm I think I see it in your purse here. Let me move this. Oh okay. So we are just going to hold onto this. It looks like she's on something that's an anxiolytic. Do you know which one she's on?,0.024390243902439025,0.04255319148936171,0.0,0.04255319148936171
+"And you're allergic to Sulfa drugs, correct?",Any allergies?,0.0,0.0,0.0,0.0
+What happens when you take Sulfa drugs?,Let me know the details.,0.0,0.0,0.0,0.0
+"And we did review your family history last time. No one else suffers from heart problems in your family, right?",Hi there! How are you today?,0.0,0.0,0.0,0.0
+So what brings you in today?,"Welcome, ma'am.",0.0,0.0,0.0,0.0
+When did you first notice the pain?,Joint pain?,0.0410424993119494,0.22222222222222224,0.0,0.22222222222222224
+Have you ever taken any prescribed drug for your headaches.,Has anything helped with the headaches doc?,0.0,0.11764705882352941,0.0,0.11764705882352941
+What do you take when you get headaches.,Have you taken over the counter medications for this?,0.1111111111111111,0.11764705882352941,0.0,0.11764705882352941
+So only over the counter medications? Do they work in providing you relief?,Thank you for the information.,0.08075860719786215,0.2222222222222222,0.0,0.1111111111111111
+Okay.,Thank you for the information.,0.0,0.0,0.0,0.0
+Is this your first pregnancy?,Is this your first pregnancy?,1.0,1.0,1.0,1.0
+"Do you smoke, sir?",Do you drink or smoke?,0.4,0.6666666666666665,0.28571428571428575,0.6666666666666665
+"How about alcohol, do you drink?",Thank you for the information.,0.1637461506155964,0.1818181818181818,0.0,0.1818181818181818
+How many kids do you have?,Tell me your story. How is your support system at home?,0.09090909090909091,0.11764705882352942,0.0,0.11764705882352942
+That's great to hear. Do they live with you or your ex husband?,"That's wonderful, do they live with you?",0.2424987689582571,0.6363636363636364,0.5,0.6363636363636364
+Wonderful.,I see. Are you married?,0.0,0.0,0.0,0.0
+Do you drink or smoke?,"Sounds like it. So, are you married?",0.14285714285714285,0.16666666666666666,0.0,0.16666666666666666
+Gotcha.,Thank you for the information.,0.0,0.0,0.0,0.0
+"So, what's going on with your hand, miss? Is it right or left?",How long has your hand been bothering you?,0.06690767856487378,0.18181818181818182,0.1,0.18181818181818182
+Can you elaborate what's happening?,What are your symptoms?,0.0,0.2,0.0,0.2
+Did anything change in your daily routine?,Have you had these episodes at night?,0.0,0.0,0.0,0.0
+What does a normal day look like? What is it like at work?,Did that help stop the tingling at all?,0.06690767856487378,0.09523809523809525,0.0,0.09523809523809525
+Is it the same day or night?,I see. What else makes it worse?,0.14285714285714285,0.14285714285714285,0.0,0.14285714285714285
+Is it in your whole hand or some specific fingers?,What other fingers are involved?,0.0,0.13333333333333333,0.0,0.13333333333333333
+I don't think so. But we can get a test done to confirm it if you want.,Thank you for clarifying.,0.009693551957930502,0.0909090909090909,0.0,0.0909090909090909
+Are you still take Prevacid?,"You have taken Prevacid in the past, right?",0.0,0.3076923076923077,0.0,0.3076923076923077
+"Okay. Yes, it looks empty. I think they did a straight cath.","So true, we did a straight catheter and got urine, but there were no leukocytes noted within the urine. There was a little bit of blood from catheterization but otherwise normal urine. We did X ray noted some stool within the vault. How is he feeling otherwise? Is he acting normally at home?",0.05660377358490566,0.09230769230769231,0.0634920634920635,0.09230769230769231
+"Okay. Yes, there were no leukocyte seen. That means no infection.","Yup, I've got the results back from diagnostic, he shows normal levels of creatinine and urine output, per the machines, so that's good. I did send a sample out to the lab that we should get results from soon.",0.0,0.038461538461538464,0.0,0.038461538461538464
+"Yes, during catheterization but the urine is normal.","It's very common when doing catheterizations. It all looks fine, nothing to worry about. Maybe some irritation. It should resolve on its own. Although he's ten, I would like you to start giving him more water, less soda based on the thick consistency of his urine.",0.021739130434782608,0.10714285714285714,0.0,0.10714285714285714
+In your x ray there was stool seen in the colon.,Can you ask backpack man to up his fluids please? A tall glass of water at the top of every hour.,0.047619047619047616,0.0625,0.0,0.0625
+"Yeah, he is fine. I can see that he is very active. Jumping up and down.","Yes, very active, no findings. See he is jumping in your room.",0.17913282764344732,0.42857142857142855,0.15384615384615383,0.28571428571428575
+Hi champ!,Hello how are you?,0.0,0.0,0.0,0.0
+Is there any relevant medical history or medical issues going on in your family in present or in past?,Do you drink alcohol?,0.0,0.0,0.0,0.0
+Do you drink or smoke?,Any history of alcohol withdrawal?,0.0,0.0,0.0,0.0
+How's the patient doing?,What are you doing for exercise?,0.0,0.1818181818181818,0.0,0.1818181818181818
+"In stable condition, but I'm not yet able to obtain a history from them.",Great!,0.0,0.0,0.0,0.0
+Please page me when they're awake and able to answer questions. I'll be on the eighth floor if you need me.,Swimming is out of the question?,0.013680833103983133,0.13793103448275862,0.0,0.06896551724137931
+Will do.,Yup.,0.0,0.0,0.0,0.0
+"Sure. It's called Serotonin syndrome, ma'am. After careful evaluation of your labs, we found out that your white count and C P K was high, and those abnormalities lined up with serotonin syndrome. What are you experiencing right now?","Absolutely. Well apart from your P N A S A, we treated you for Serotonin Syndrome. Post reevaluation, your labs showed abnormal quantities. We found that due to Serotonin Syndrome you had elevated white cells count and C P K. This is consistent with your history of taking Prozac. Subsequently, symptoms like Restlessness, agitation, and increased bowel activity also supported our Serotonin Syndrome.",0.23809523809523808,0.4230769230769231,0.1568627450980392,0.3269230769230769
+"These can match serotonin syndrome as well. You deny any fever, tremor or hypperflexia so we will give you some IV fluids and I will check on you in an hour or so.","Don't worry we administered fluids I V and your C P K improved. Also, after stopping Prozac, there is significant improvement. While discussing this, I see here that you have a follow up with Doctor X on Monday.",0.15789473684210525,0.16666666666666669,0.0,0.1388888888888889
+Looks like your C P K counts improved with I V fluids and after discontinuing Prozac.,"Here, all your electrolyte abnormalities are resolved. Your P N A S A looks fine to me. Now I will be discharging you. Let me help you get this chart here.",0.0967741935483871,0.1702127659574468,0.0,0.12765957446808507
+"Yes, your C P K and white blood cell counts have come back down. Almost normal now.","Yes, your white blood cells count has come back towards normal. That is great.",0.34590760585945257,0.5806451612903226,0.3448275862068966,0.5806451612903226
+"Okay, I see that you have a history of panic attacks and you do have depression and anxiety, is that correct? Last Friday, I talked to psychiatrist about your issues, and he recommended Cymbalta as an alternative to Prozac.","With your history of depression and anxiety, we need to do something about your panic attacks. In my opinion, Doctor X will be a best person to discuss this. I will call and ask him to see you on Monday, or if lucky maybe I can squeeze you on Wednesday. Anyway, Doctor X will be available on Friday. In the meantime, tell me more. How you feeling now? Is there anything that is worrying you?",0.26666666666666666,0.38596491228070173,0.08928571428571429,0.1754385964912281
+Oh wow.,"It is good that your daughter is visiting you, so if you have any problems then you can call her at that time.",0.0,0.0,0.0,0.0
+That's nice. Do you have someone who can drop you home and help you?,What will you do until your daughter gets here?,0.06375038008193697,0.16666666666666669,0.0,0.08333333333333334
+"Okay that sounds good. Just continue with your medications for high blood pressure and diabetes as well. So, we treated your imbalance issues and gave you IV fluids, you do not have any more diarrhea, right?",That sounds good.,1.1134467193497106e-05,0.15384615384615385,0.1081081081081081,0.15384615384615385
+"Welcome to the clinic, miss.","How are you today, ma'am?",0.0,0.0,0.0,0.0
+What brings you to the clinic today?,How old are you now?,0.13406400920712788,0.16666666666666666,0.0,0.16666666666666666
+Do you have a history of epilepsy?,Let me evaluate you for that. I have ordered a Video E E G for you.,0.1875,0.26086956521739124,0.0,0.26086956521739124
+Okay. What makes you feel like you are having seizures again?,Thank you for the information.,0.060238842382440407,0.12500000000000003,0.0,0.12500000000000003
+Okay. Do you have weakness when you wake up?,"I see, thank you for letting me know about your symptoms. Have you ever had an E E G or video E E G before to see if you are having electric discharges in the brain?",0.05555555555555555,0.13333333333333333,0.0,0.13333333333333333
+Okay. That is good to know. How old are you?,"That sounds horrible. Seizures or not, we need to get to the bottom of this issue.",0.125,0.15384615384615385,0.0,0.15384615384615385
+Okay. I would like to perform a video E E G today. By doing the video E E G we will have more information on whether you are having epileptic seizures or non-epileptic events.,"So, the history of seizures goes back to when you were very young?",0.06117359653479206,0.16666666666666666,0.0,0.08333333333333333
+Do you have time for us to do it today?,How long are these episodes?,0.0,0.0,0.0,0.0
+Excellent! I will have the nurse come in a get you set up.,Remind me what happens when you have one of these non epileptic episodes?,0.15384615384615385,0.15384615384615385,0.0,0.07692307692307693
+We have placed this nasogastric tube for decompression.,"Hi, how are you feeling today?",0.0,0.0,0.0,0.0
+How are you feeling now?,How is the nausea and vomiting?,0.16666666666666666,0.1818181818181818,0.0,0.1818181818181818
+We are following up with you for your prostate cancer which has metastasized to your bladder and in several locations throughout your body including the spine and shoulder.,"Welcome in, sir. Your follow-up with Doctor Bhattacharya?",0.01026062482798735,0.2702702702702703,0.11428571428571428,0.16216216216216214
+"Oh okay, we will have to evaluate that then. Let me ask you few other questions to get this out of the way. How about your back pain, how's it? Also any incontinence?","Yes, Doctor noted that you keep passing blood even though there is no change in your back pain. How much pain are you in the scale of ten, if ten is unbearable pain? Also, have you experienced any incontinence issues in the past, or right now, any inability to control your urine or stool?",0.18518518518518517,0.29545454545454547,0.09302325581395349,0.2045454545454545
+"All right. How about fever, belly pain, nausea or vomiting?",Are you running fever?,0.0,0.14285714285714288,0.0,0.14285714285714288
+"Are you able to pee noramally and pass urine, you aren't retaining? How about blood in stools?","Are you experiencing any abdominal pain, or any other gastrointestinal issues like black tarry stools, or bright red stools?",0.15789473684210525,0.16216216216216214,0.05714285714285714,0.16216216216216214
+Okay. Can you tell me if you have finished your chemo?,How about nausea? Or vomiting episodes?,0.0,0.0,0.0,0.0
+"Yes, we are looking at that at this point.",What exactly is your condition?,0.0,0.0,0.0,0.0
+Do you have any hospice care facility listed?,I mean what were you diagnosed with?,0.12383969996431167,0.13333333333333333,0.0,0.13333333333333333
+That treatment management we are focusing on-,"So, what is the game plan going forward? What is your treatment plan?",0.07692307692307693,0.1,0.0,0.1
+Hello. I see you're here for a follow up.,Any past medical history I should know about?,0.11031211282307443,0.11111111111111112,0.0,0.11111111111111112
+I see. Is it fine if I go over your medical history?,Have you been to see a doctor for this problem before?,0.0,0.08695652173913043,0.0,0.08695652173913043
+"Great. I see you had a history of hives before, right?",Did you get hurt or anything?,0.07243303475117971,0.11764705882352942,0.0,0.11764705882352942
+I see you had dialysis as well. How many times have you had that?,"Okay. So, what seemed to be the problem? Did you get your labs back?",0.07142857142857142,0.07142857142857142,0.0,0.07142857142857142
+"I see. You also have high blood pressure, right?",Were you feeling really tired and nauseous at the time?,0.0,0.10526315789473685,0.0,0.10526315789473685
+Hm. They might associate your kidney problems with high blood pressure. Let's take a closer look.,"I'm looking over your past labs, and it looks like you have already begun experiencing some symptoms.",0.058823529411764705,0.11428571428571428,0.0,0.11428571428571428
+Looks like he has a foreign body in his left eye.,Have you ever been diagnosed with any conditions?,0.0,0.0,0.0,0.0
+"His fever is running very high, I think he is having a febrile seizure.",So he ran a fever and then had a seizure?,0.20109601381069178,0.3333333333333333,0.0,0.25
+"Yeah, I think so too.",Is there any medical history I should know of?,0.1111111111111111,0.14285714285714285,0.0,0.14285714285714285
+"Ma'am, let us have a look.","I think so, he seems a little more post um today. He has had a febrile seizures before.",0.05555555555555555,0.08,0.0,0.08
+"Do you have any history of tobacco, alcohol, or drug use?",Do you indulge in tobacco?,0.12047768476488081,0.37499999999999994,0.14285714285714288,0.37499999999999994
+Do you have a history of alcohol or drug abuse?,Do you drink alcohol?,0.11156508007421491,0.4285714285714285,0.16666666666666666,0.4285714285714285
+Okay. Do you smoke or have you ever in the past?,That is good. I am going to make a note here. Any history of smoking?,0.0,0.07692307692307691,0.0,0.07692307692307691
+Excellent!,Thank you for the information.,0.0,0.0,0.0,0.0
+What are you taking?,"Hm, isn't there a simpler way to do this?",0.0,0.0,0.0,0.0
+"Yes, sir.","Yeah, I'm going over your list right now and you're not on anything that'll make you bleed out like thinner medications.",0.0,0.0,0.0,0.0
+No let me check the chart then.,"Nah, that's okay. I'm able to see everything here and we went over the list already.",0.0625,0.08,0.0,0.08
+You are not on any blood thinners right?,"Okay, that's wrapped up then.",0.0,0.0,0.0,0.0
+Okay great.,Thank you for the information.,0.0,0.0,0.0,0.0
+"Good afternoon, sir, before we begin, how old are you?","What's up, friend? How are you doing?",0.09306272250443651,0.33333333333333326,0.125,0.33333333333333326
+"Good, and what race do you identify with?","Thank you, please, tell me what happened.",0.12383969996431167,0.26666666666666666,0.0,0.13333333333333333
+"Great, so how did you get hurt?","Yeah, what happened at work?",0.0,0.0,0.0,0.0
+Where did you feel the pop?,Where in your left leg?,0.1637461506155964,0.1818181818181818,0.0,0.1818181818181818
+What treatments have you had for this knee so far?,"So, I see they put you in a posterior splint.",0.1,0.20000000000000004,0.0,0.10000000000000002
+"Good, thank you, and welcome.",Thank you for the information.,0.0,0.4000000000000001,0.25,0.4000000000000001
+"Can you tell me more about your son, ma'am?",How is he doing at school? Are there any improvements?,0.0,0.0,0.0,0.0
+What do they say?,How is his speech and language development coming along?,0.0,0.0,0.0,0.0
+What kind of problems is he having?,I see he's having a hard time with repetitive questioning.,0.0,0.2222222222222222,0.0,0.2222222222222222
+What about his interactions with his classmates?,How is he doing with socializing at school?,0.125,0.13333333333333333,0.0,0.13333333333333333
+How is his mood?,Should I be concerned?,0.0,0.0,0.0,0.0
+Is he still asking a lot of questions in class?,How was his behavior at the school visit?,0.0,0.0,0.0,0.0
+Are there any other unusual behaviors you've seen?,That's great. Is this his whole collection of toys? I see some old ones in here that don't look new. It seems that he has an interest in collecting them again.,0.0,0.0,0.0,0.0
+"I see, what are his plans for the summer, will he be in classes?","Ah, I see. That's great. What're your plans for the summer concerning his social skills?",0.3333333333333333,0.5161290322580646,0.27586206896551724,0.45161290322580644
+"I see here as well that A B C D has referred him to two psychologists for functional behavioral analysis, is that correct?","Sounds good. Well, I also talked to A B C D about referring him to two psychologists who can do a functional behavioral analysis.",0.4583333333333333,0.5957446808510638,0.4,0.5531914893617021
+"Good, be sure to follow up with them please.",How are the tremors?,0.0,0.0,0.0,0.0
+Has he been taking his Zoloft?,Good so lessening in tremoring in both hands since discontinuation of Zoloft. And he is now currently taking Abilify at seven point five milligrams?,0.08333333333333333,0.2,0.0,0.13333333333333333
+"I see, how has he responded to stopping taking the Zoloft?","Okay, anything else I should know?",0.07243303475117971,0.11764705882352942,0.0,0.11764705882352942
+"Hm so it looks like you saw your cardiologist last week, correct?",Have you ever had coronary angiography done?,0.06993452279385044,0.10526315789473685,0.0,0.10526315789473685
+How did your visit go?,Any history of coronary artery disease or any mauor surgeries related to this?,0.0,0.0,0.0,0.0
+I'm glad to hear that it went well. Does heart disease run in your family?,"Oh, wow.",0.0,0.0,0.0,0.0
+I see. I asked the tech to do a quick E K G on you and it looks normal so that's good news.,Thank you for the information.,0.010929488978917028,0.13793103448275862,0.0,0.06896551724137931
+Are you on any meds?,Are you on any daily medications?,0.6666666666666666,0.7272727272727272,0.6666666666666665,0.7272727272727272
+I am asking for the EHR.,"No, that Is good. I just wanted to cofirm.",0.1111111111111111,0.13333333333333333,0.0,0.13333333333333333
+"Ok, let me update it here.","Alright, thank you for the information.",0.0,0.0,0.0,0.0
+Thanks.,Stay safe,0.0,0.0,0.0,0.0
+"Hello, ma'am. I see you brought your baby daughter in today. Is she a new patient?",Hi there! Good morning! Can you tell me wee bit about the primary condition for which you are here today?,0.05,0.1081081081081081,0.0,0.1081081081081081
+"Before we begin, could you verify her age and ethnicity, please?","Nice to meet you! And who is the patient today? Mom, can you also tell me about her past history?",0.1,0.19354838709677416,0.0,0.12903225806451613
+Thank you. How did you hear about our dermatology office?,"Thank you. So, you were sent here by another clinic for a consult. Where are you from?",0.17647058823529413,0.22222222222222224,0.08,0.22222222222222224
+I see. Do you have a report from the A B C Practice?,"Oh, okay, let me take a look. Mom can you tell me what treatment she has received from them?",0.15789473684210525,0.18749999999999997,0.0,0.125
+"Thank you. It looks like she has a history of this atopic eczema, correct?",Thank you. It says here that she was given Elidel.,0.26812801841425576,0.3333333333333333,0.18181818181818185,0.3333333333333333
+Did they provide you with any medication?,How long was she on this? And is she still using it?,0.0,0.0,0.0,0.0
+It looks like they gave you an Elidel cream. How often do you apply it to her rashes?,Looks like it has been six months and twice a day for application.,0.10472498435744391,0.1935483870967742,0.06896551724137931,0.1935483870967742
+Is it effective?,Okay and the reason I ask is because the cream seems to have stopped working on the affected area.,0.0,0.09090909090909091,0.0,0.09090909090909091
+Do you know the name of the oil?,Which one?,0.0,0.0,0.0,0.0
+"Oh, I see. The Johnson's Baby oil. That's a good brand. Well, your daughter seems to be well-developed and has good health. She looks her age. We can see what else can help with her rashes.","I see. It's Johnson's Baby Oil. And yeah, that will make sense. This can make the skin drier. She's a well developed baby.",0.1482356357303438,0.46153846153846156,0.19047619047619047,0.3384615384615385
+Did you have any known allergies?,Any known allergies?,0.24525296078096154,0.6666666666666666,0.5714285714285715,0.6666666666666666
+"Yes, thank you for that, sir. Did they screen patient?",Is there any issue till now?,0.0,0.0,0.0,0.0
+Okay.,"That's good, and did you started taking vaccine for that?",0.0,0.0,0.0,0.0
+"Don't worry, we will do what we can okay. Firstly, let me check if they did some hepatitis B shots on you. Okay looks like you had three shots of hep B and Tetanus is up to date with all others. Antibodies are showing, which is good.","You should go for series of three shots. Then get the titers drawn, that will show the antibody count, and you are safe forever. Did patient being up to date with their tetanus, mumps and all?",0.20464277087177757,0.4047619047619048,0.09756097560975609,0.21428571428571427
+"Yes, I can see that your liver function test were normal at eighteen and hepatitis C and H I V, both were negative. We took these labs on February seventh. You do not have any local signs of infection, right? Except acute intestinal problem?","Yes, your tests are all normal, let me check the file. Your liver enzyme is just eighteen. So, it's perfect. It's normal. Your hep C and H I V are negative.",0.16966989877699531,0.3116883116883117,0.13333333333333336,0.28571428571428575
+Let me look at your exam.,"Hm, Let me do the abdominal exam. Ok, that looks pretty normal. Don't worry we will run some more tests for your intestinal issues. Let me see your other test results. Getting fever?",0.12121212121212122,0.25,0.052631578947368425,0.2
+"Abdomen is fine, no fever and no swellings. That's great.","No, so your full report is here.",0.09306272250443651,0.2222222222222222,0.0,0.1111111111111111
+How are you feeling?,"I wonder if she's having some sort of musculoskeletal weakness, maybe.",0.0,0.0,0.0,0.0
+Oh I am so sorry.,Oh.,0.0,0.33333333333333337,0.0,0.33333333333333337
+Hello. How are you doing today?,Can you tell me anything significant about your medical history?,0.1,0.125,0.0,0.125
+I see. Does cancer run in your family?,Cancer?,0.0,0.2222222222222222,0.0,0.2222222222222222
+Do you have anyone that lives at home with you?,Are you married?,0.03232398928813501,0.15384615384615383,0.0,0.15384615384615383
+"Do you use ethanol, tobacco or illicits?",And how long have you and your husband been living here?,0.09090909090909091,0.1111111111111111,0.0,0.1111111111111111
+"Lets talk about your family history, does anyone else in your family have cancer?","Hi there! So, what's your family medical history?",0.11809163818525367,0.2608695652173913,0.09523809523809525,0.2608695652173913
+"Oh, I am sorry to hear that!",Are there any other medical conditions that run in your family?,0.0,0.1111111111111111,0.0,0.1111111111111111
+Anything else?,The most dominant medical condition that runs in my family is adult onset diabetes.,0.0,0.0,0.0,0.0
+"Were your family members young when they were diagnosed, or did they develop it later in life?","Oh, wow.",0.0,0.0,0.0,0.0
+"Ah, yes. They had adult onset diabetes mellitus.",Thank you for the information,0.0,0.0,0.0,0.0
+"Good morning, young man. Is this your mother?","Is Alex your only child, sir? I notice that you are with your son today in-",0.125,0.16666666666666666,0.0,0.16666666666666666
+"Good, nice to mee you. Can you tell me more about your son, please?","Wonderful, so, how did the fracture happen, dad? And how has Alex's recovery been?",0.0,0.0,0.0,0.0
+"How did the fracture heal? Generally, children heal very well.",Has he had any complications during the healing process?,0.09942659075715218,0.2105263157894737,0.0,0.2105263157894737
+"Yes, I see now, there's an ulnar nail pretty prominently visible under the skin, did he have surgery for this?",I see that did register with our office notes.,0.09819160943670244,0.2,0.07142857142857144,0.2
+"We'll have to, even though its early.","Indeed, there is some shortening in both his ulna and radius.",0.0,0.0,0.0,0.0
+"After that, we'll put him back in a cast for about another three weeks. We'll evaluate him and see how he's doing.",We'll put him in another cast for about three weeks.,0.301194211912202,0.6111111111111112,0.35294117647058826,0.5555555555555556
+"The risk of infection is overall very low, honestly its less than one percent. We use antibiotics to control for infection the entire time. Other risks include bleeding, changes in sensation in most of the extremity, or need for longer casting. I would not worry too much about these risks. I have not seen anything bad happen before.","Historically, it is a one percent risk. I use antibiotics to mitigate this risk. Infection can result in the need for a longer cast, but this is rare. Necrosis and amputation are risks of a long standing infection, but these and other associated risks are rare.",0.23446390361500094,0.4038461538461538,0.13725490196078433,0.2884615384615385
+"Yes, he won't feel a thing.","Absolutely. Would you like me to explain the associated risks of anesthesia, sir?",0.0,0.0,0.0,0.0
+Does she take any medicine?,Do you have a list of medications that I can have a look at? Do you take insulin?,0.05555555555555555,0.08695652173913045,0.0,0.08695652173913045
+Do you mind if I take a look as well?,Thank you. This is very helpful,0.0,0.125,0.0,0.125
+How is your two week old newborn son doing today?,How old is your child?,0.2943035529371539,0.5333333333333333,0.15384615384615383,0.4
+"Great, what brings you in for a visit today?","Wonderful. Looking at the foreskin, it seems like he doesn't have any significant issues. Any complaints for the baby>?",0.05263157894736842,0.06896551724137932,0.0,0.06896551724137932
+"Other than the foreskin, which appears to not be out of the ordinary upon exam, does he have any other problems?",Thank you for the information.,0.008152440795673243,0.07692307692307693,0.0,0.07692307692307693
+Are you aware of any medical issues running in your family?,Hi Nick. Can you tell me a bit about your family?,0.2727272727272727,0.2727272727272727,0.10000000000000002,0.2727272727272727
+Do you smoke?,Mm hm. Do you know how old your dad is now?,0.18181818181818182,0.28571428571428575,0.16666666666666669,0.28571428571428575
+How much would you use to smoke before?,How heavy of a smoker were you?,0.12383969996431167,0.26666666666666666,0.0,0.26666666666666666
+What did you used to do for a living?,Thank you for the information. What is your occupation?,0.3333333333333333,0.3333333333333333,0.0,0.2222222222222222
+"Don't worry, I will help you.",Can you tell me a little more about the baby?,0.0,0.11764705882352941,0.0,0.11764705882352941
+How old is he?,How old is your son?,0.6,0.6666666666666665,0.5714285714285715,0.6666666666666665
+You gave him medication?,Has he been seen for this fever?,0.0,0.0,0.0,0.0
+He takes Zyrtec as well right?,"He is also taking Zyrtec, yes?",0.16666666666666666,0.5,0.20000000000000004,0.5
+Okay. Is the fever constant throughout the day or it fluctuates?,How is he taking the fever? What are his numbers?,0.09048374180359596,0.28571428571428564,0.10526315789473685,0.28571428571428564
+Have you checked it?,Has it gone above one hundred point four?,0.0,0.16666666666666666,0.0,0.16666666666666666
+"Ha, that tends to happen?",Is there anything else that he is doing?,0.125,0.15384615384615385,0.0,0.15384615384615385
+His tooth is coming out.,That might be of concern to you?,0.0,0.0,0.0,0.0
+Yeah. How about any diarrhea or vomiting?,Looks like he is cutting a tooth.,0.0,0.0,0.0,0.0
+Cough?,He does not have that or this is his first tooth?,0.0,0.0,0.0,0.0
+Have you seen any change in the color of his mucous that is coming out of his nose?,Okay. How are his secretions from his nose?,0.10743929882257128,0.23076923076923078,0.08333333333333333,0.23076923076923078
+Is he eating well? He seems hungry?,Okay. Is he eating and drinking?,0.423240862445307,0.4615384615384615,0.3636363636363636,0.4615384615384615
+Did you ever have any surgery?,Any surgery ever?,0.0,0.6666666666666666,0.28571428571428575,0.4444444444444444
+What was it about?,Do you remember the surgery?,0.0,0.0,0.0,0.0
+Anything else?,Is there anything else you can think of?,0.0,0.4,0.25,0.4
+"Good morning, Miss XYZ.","How are you doing, young lady?",0.0,0.0,0.0,0.0
+"So, I hear from my nurses you have F C R tendinitis. Have you seen another doctor for this?",I see you were seen by Doctor A B C for your F C R Tendinitis.,0.36270023920392513,0.5142857142857142,0.1818181818181818,0.34285714285714286
+"That stands for flexor carpi radialis, it's a tendon in your forearm that has become inflamed.","It is inflammation in your wrist. Your C T scans show inflammation present in you wrist. It is often treated with physical therapy, splinting, and pain control may consist of nonsteroidal anti-inflammatory drugs.",0.06060606060606061,0.11764705882352942,0.04081632653061225,0.11764705882352942
+"You're very welcome, my dear. So, you don't have his reports, but do you remember how this has been treated in the past?","Also Doctor A B C mentioned you have received two cortisone shots, is that correct?",0.0782194959346709,0.1,0.0,0.1
+"I see. So, what do you do for fun? Do you have any hobbies?",That's good and have you been playing you guitar like before?,0.20762737819005644,0.23076923076923075,0.0,0.15384615384615383
+Does this make the pain worse?,"Oh okay, but does it bother your wrist?",0.0,0.14285714285714288,0.0,0.14285714285714288
+I see. Do you take anti-inflammatories when the pain gets bad?,"Overall, how would you rate your wrist discomfort on a scale of one to ten. Ten being the most discomfort.",0.1,0.125,0.0,0.125
+And does diabetes run in your family?,Anyone in your family with diabetes?,0.28216057496353797,0.6153846153846153,0.3636363636363636,0.4615384615384615
+I am sorry.,Sorry to hear that.,0.0,0.28571428571428575,0.0,0.28571428571428575
+Where is the pain?,Is this the result of one of your many injuries?,0.1,0.28571428571428575,0.0,0.28571428571428575
+"I have your chart notes from Doctor X Y Z from several years ago. I see that you have been treated for heroin use. Are you using heroin again, sir?",Does your heroin use help with the pain?,0.015981965301676893,0.15789473684210528,0.05555555555555555,0.15789473684210528
+"Hello, miss how can I help today? Do you mind stating your age and ethnicity for documentation purposes?",What seems to be the problem?,0.0,0.0,0.0,0.0
+Is it tender when I touch the area? Have you had any fever?,Did you experience any fever?,0.12113791079679323,0.33333333333333337,0.125,0.33333333333333337
+Have you ever had surgery in the past?,"Hello, so tell me do you have any medical conditions?",0.1,0.22222222222222224,0.0,0.11111111111111112
+"So, there's no history of gallbladder or appendix removal, or joint replacements?",Thank you for the information.,0.0,0.0,0.0,0.0
+"No, I've never had any of that done.",It looks like you're responding well to the treatments.,0.0,0.0,0.0,0.0
+What is your living status? Do you live alone or with your family?,What's your living arrangement?,0.052699612280932166,0.33333333333333337,0.125,0.33333333333333337
+Who all is there in your family?,How many siblings do you have?,0.0,0.0,0.0,0.0
+Have you been in contact with anyone who is sick?,That's amazing.,0.0,0.0,0.0,0.0
+"So, I am looking at your x ray here.",You have got X Rays of his shoulder?,0.0,0.23529411764705882,0.13333333333333333,0.23529411764705882
+"Yes so, we have a two view of you shoulder. I am not seeing any bone abnormalities or any degenerative changes, so no wear and tear.",Relax everything is fine we do not see any abnormalities in his bones. There is also no significant sign of degenerative changes in bones.,0.26834628760021934,0.4,0.12499999999999997,0.27999999999999997
+"Yes, it is normal.","Yes, it is normal.",1.0,1.0,1.0,1.0
+"How old are you, sir?","Hello, sir. How're you?",0.0,0.6,0.0,0.4000000000000001
+"Welcome to A B C D General Hospital, what seems to be the problem today, sir?","Um, don't worry sir, it's just a routine question. I need to confirm some demographic details before I start the treatment process.",0.09090909090909091,0.2,0.0,0.15
+"Yes, looking at these x rays, the arthritis is in your M P J of the big toe.","Yes, it's more commonly known as arthritis.",0.029678312449085826,0.15384615384615383,0.0,0.15384615384615383
+Has this pain been getting worse?,Is this something that has been going on for a long time?,0.16666666666666666,0.3333333333333333,0.0,0.2222222222222222
+"Actually, there's surgical options available.",I think that sure ari could help. Do you have any interest in that?,0.0,0.0,0.0,0.0
+Welcome to the clinic. Let start with your medical history.,Has your Parkinson's worsened since we last spoke?,0.09735009788392561,0.10526315789473685,0.0,0.10526315789473685
+Can you tell me if you ever had chronic issues? Like any illnesses?,When was the last surgery?,0.0,0.0,0.0,0.0
+"Hello, miss. How are you doing today?",Why don't you tell me more about the patient as you see her?,0.07692307692307693,0.09523809523809523,0.0,0.09523809523809523
+"Of course! Before I talk about any procedures with you, I have to ask a few questions. Do you currently smoke?","Sure, I'm looking at your papers, and you totally appear to be fifty seven years old.",0.09145195361833022,0.15789473684210528,0.0,0.15789473684210528
+Great. Have you ever had a skin disease?,"tobacco, right?",0.0,0.0,0.0,0.0
+Perfect. I'm just going to examine your face really quick.,Any history of other skin conditions?,0.0,0.0,0.0,0.0
+"After examining your face, it looks like your submandibular region and mid-face region are predominantly full. Your nasolabial folds are prominent.",Like rosacea or acne or anything?,0.0,0.07142857142857144,0.0,0.07142857142857144
+"Good afternoon, ma'am, I see you're a new patient with us.","Good afternoon ma'am. You are a new patient, correct?",0.26691246763893595,0.6956521739130435,0.4761904761904762,0.6956521739130435
+"Well, welcome. Before we get started, how old are you?",Great. What seems to be the problem today?,0.0,0.0,0.0,0.0
+"Thank you, what seems to be the problem today.","Well, that's not old.",0.0,0.0,0.0,0.0
+How long have you been dealing with this pain?,How long have you had pain in your right hip?,0.4,0.5263157894736842,0.35294117647058826,0.5263157894736842
+Is the pain getting worse?,Where exactly is your pain? Can you point to it for me?,0.0,0.23529411764705882,0.0,0.23529411764705882
+Can you show me where the pain is?,"Once again, how long has the pain been in the right hip?",0.16666666666666666,0.2,0.1111111111111111,0.2
+Do any activities bother your hip?,Does it hurt when you walk?,0.0,0.0,0.0,0.0
+Have you seen another doctor for this pain?,"Today, are you going to be seeking evaluation, or have you tried anything that I should know about?",0.05555555555555555,0.15384615384615383,0.08333333333333333,0.15384615384615383
+"How old are you, ma'am, twenty?","Good morning, ma'am. Remind me, what brings you in to see me today?",0.0,0.2857142857142857,0.10526315789473684,0.19047619047619047
+"I see here that you have a herniated disc at T eight T nine, does that sound familiar?","Sorry, what was the problem?",0.0,0.0,0.0,0.0
+How have you managed this?,"I see, your most recent imaging shows a herniated nucleus pulposus at T eight to nine.",0.0,0.0,0.0,0.0
+Has this helped at all?,"At this point, it would be beneficial to operate, since these conditions generally worsen with time. What do you think?",0.05,0.16000000000000003,0.0,0.08000000000000002
+Do you have any chronic diseases that you think I should know about?,Hi how are you?,0.0,0.11764705882352941,0.0,0.11764705882352941
+"Anything like high blood pressure, diabetes, depression, or arthritis. Do any of those ring any bells?","Well, this just means that it is not curable, but treatable.",0.0,0.0,0.0,0.0
+"We have a fifty eight year old female who was allegedly in her typical healthy state until four o'clock P M on January eighth, nineteen ninety three when she suddenly became blind.","Hello, what brings you here today?",0.0,0.0,0.0,0.0
+Did she experience any slurred speech or other neurological symptoms?,How old are you ma'am? And what is your gender?,0.0,0.0,0.0,0.0
+"She complained of tongue numbness and slurred speech in conjunction with vision loss. She explained that her vision improved slightly on her way to the local E R. She noticed severe blurring right before arrival, but the vision problems worsened shortly after.",Right. Tell me your symptoms from the beginning.,0.001783029238624907,0.08,0.0,0.08
+Is this the first time she had experienced any of these symptoms?,Oh yeah. So she was doing her normal day anded until four you know January eight ninety three and then suddenly she went blind.,0.041666666666666664,0.05555555555555555,0.0,0.05555555555555555
+"Yes. While being evaluated, she became unresponsive. She wasn't responding to deep noxious stimuli.",Did she have any other symptoms?,0.04393285635262112,0.09523809523809522,0.0,0.09523809523809522
+Did they transfer her?,"Yeah, her vision was blurring really badly, and she also was finding it hard to speak due to a concept of slurry and her tongue was also feeling so numb and tingling in a way.",0.0,0.05128205128205128,0.0,0.05128205128205128
+Yes. She was transferred to U I H C. Her symptoms improved markedly upon her arrival.,Could you describe the vision loss? Was it gradual or sudden? And which eye has it affected? And was some part of her vision missing?,0.08,0.09756097560975609,0.0,0.09756097560975609
+"So tell me something, does depression or depression like symptoms run in your family?",Has depression run in your family?,0.2196642817631056,0.5,0.33333333333333337,0.5
+I see.,Thank you for the information.,0.0,0.0,0.0,0.0
+"Has your E coli improved since your last visit, ma'am?","Hello, how are you?",0.0,0.0,0.0,0.0
+"You were taking the Macrobid, correct?",What happened?,0.0,0.0,0.0,0.0
+What complications did you have?,"Oh, did you finish the entire prescription?",0.2857142857142857,0.3333333333333333,0.2,0.3333333333333333
+"Since stopping the medicine, have these symptoms gone away?",Are you still experiencing a rash or hives?,0.0,0.0,0.0,0.0
+Do you have any pain with urination or blood in your urine?,"Are you currently experiencing any dysuria, gross hematuria, fever, or chills?",0.24902746807698065,0.2608695652173913,0.0,0.2608695652173913
+What about fever or chills?,How frequently are you using the bathroom in the daytime?,0.0,0.0,0.0,0.0
+"Good, how many times a day do you urinate?",Do you have to wake up to use the bathroom the middle of the night?,0.06666666666666667,0.16666666666666669,0.09090909090909091,0.16666666666666669
+Are you controlling your urine well?,How is your stress incontine-,0.1637461506155964,0.1818181818181818,0.0,0.1818181818181818
+Are you familiar with the results of this renal ultrasound from August fifth two thousand eight?,"Good! Your last urine culture showed. coli, and that was ... By the way?",0.061919849982155835,0.06896551724137931,0.0,0.06896551724137931
+"Basically, yes. There's nohydronephrosis, masses, or stones.","Yes, no evidence of a stone or anything. Your bladder mass and stone were also fine. We reviewed the renal ultrasound from August fifth, two thousand and eight. Everything looked normal there, too.",0.030303030303030304,0.24390243902439024,0.0,0.14634146341463414
+"I hear that you've had E coli few times, once in November of two thousand seven, and then in May and July of two thousand eight.","So your last cultures, I have here, were November two thousand and seven, May, seven two thousand and eight, then July seven two thousand and eight, and they all showed E. coli.",0.34375,0.5084745762711864,0.10526315789473684,0.37288135593220334
+Tylenol?,"What medications do you take, ma'am?",0.0,0.0,0.0,0.0
+Okay. What other medications do you take?,Anything else that I should know?,0.0,0.0,0.0,0.0
+Okay I see Norvasc and Lanoxin too.,Does the Lisinopril upset your stomach?,0.0,0.0,0.0,0.0
+"Yes, I see, Diovan and Atenolol.","So, the folic acid is the only thing that's in the system and it's coming out. Could be that the folic acid is from the multivitamins that you've been taking?",0.03333333333333333,0.05128205128205128,0.0,0.05128205128205128
+"Hello nurse, who do we have here today?","Good afternoon, sir. Welcome to the clinic.",0.0,0.0,0.0,0.0
+"This is a thirty-seven-year-old, left-handed male. He visited us one month ago for headaches, nausea, and vomiting. His exams from that time showed no evidence of bowel obstruction and he was released home.","Hm, let me check your chart real quick. We saw you for a five ah, almost two months ago and you presented with headache, nausea and vomiting. Is that correct?",0.21112873087505724,0.3283582089552239,0.12307692307692307,0.23880597014925373
+"Was there any improvement after your discharge, sir?","Yes, I do remember you. You are the doctor that released me. Before you release me, you wanted to confirm there is no bowel obstruction. That sounds right.",0.03571428571428571,0.05555555555555556,0.0,0.05555555555555556
+What problems are you facing now?,Did you ever go see a doctor after the first visit?,0.09090909090909091,0.11764705882352942,0.0,0.11764705882352942
+How would you describe your headaches?,Do you feel pulsing in your head?,0.2857142857142857,0.30769230769230765,0.0,0.30769230769230765
+Your headache starts from which part of your head?,Where do you primarily feel them?,0.0,0.0,0.0,0.0
+What else do you feel along with your headaches?,"Other than headaches, do you ever experience blurred vision, nausea, vomiting, photophobia, or phonophobia?",0.14285714285714285,0.2608695652173913,0.09523809523809525,0.17391304347826086
+"I discussed with him about any blind spots, positive visual phenomena, weakness, numbness, tingling or double vision or any speech disorder, but he denies everything.","Do you see shadows, flashing lights when your nuclear in the back hurts?",0.0,0.0,0.0,0.0
+How about your weight?,"Do you feel weak or experience any loss in speech, double vision etc.?",0.0,0.0,0.0,0.0
+Today his weight is one hundred and fifty four pounds.,And what is it today?,0.07357588823428847,0.4,0.0,0.13333333333333333
+"How are you eating habits in the last, let's say, one month?",A hundred and fifty four. Your weight has been fluctuating quite a bit lately.,0.0,0.0,0.0,0.0
+"Good morning, ma'am. Are you married?","How's your health, ma'am?",0.0,0.30769230769230765,0.1818181818181818,0.30769230769230765
+"That's great, do you have stairs in your home?",That's great! I'm sure he's a big help to you.,0.1,0.34782608695652173,0.1904761904761905,0.34782608695652173
+"Great, well, how are you feeling today?","Good, do you smoke, or drink?",0.14108028748176898,0.15384615384615383,0.0,0.15384615384615383
+What about your husband?,"And your daily exercises, how's that coming along?",0.125,0.15384615384615383,0.0,0.15384615384615383
+"That's great, do you smoke?",Been keeping up with them?,0.0,0.0,0.0,0.0
+"What about alcohol, do you drink?",Why haven't you been keeping up with them?,0.125,0.13333333333333333,0.0,0.13333333333333333
+Do you exercise?,"I see here that your exercise routine was put on hold, correct?",0.0,0.13333333333333333,0.0,0.13333333333333333
+Why aren't you still doing this?,Ma'am are you working?,0.15163266492815836,0.16666666666666666,0.0,0.16666666666666666
+I see. What do you do for a living?,I see.,0.0301973834223185,0.3636363636363636,0.2222222222222222,0.3636363636363636
+What does this entail?,"Right, so I'm required to walk a lot due to my extensive responsibilities.",0.0,0.0,0.0,0.0
+Do you like to travel?,Any recent travel to any foreign destination?,0.14285714285714285,0.3333333333333333,0.0,0.16666666666666666
+Have you travelled outside the country recently?,Where all have you been?,0.13406400920712788,0.3333333333333333,0.2,0.3333333333333333
+That's great.,Thank you for the information.,0.0,0.0,0.0,0.0
+Any chest pain or shortness of breath?,Any blood in your family?,0.13406400920712788,0.16666666666666666,0.0,0.16666666666666666
+How about bladder and bowel issues?,How about any stomach or digestion issues?,0.42857142857142855,0.4615384615384615,0.1818181818181818,0.4615384615384615
+Any excessive or unstoppable bleeding issues?,Anyone in your family was diagnosed with bleeding disorders?,0.1111111111111111,0.13333333333333333,0.0,0.13333333333333333
+Oh.,That's good to know.,0.0,0.0,0.0,0.0
+Tell me about your family medical history.,"Everyone has some medical history. Before we start the examination, I want to know about your family history. So, tell me what about any conditions runs in the family?",0.20689655172413793,0.3888888888888889,0.23529411764705882,0.2222222222222222
+Do you know what kind of cancer she passed from?,What kind?,0.0,0.33333333333333337,0.19999999999999998,0.33333333333333337
+What about your fathers' medical history?,Oh! Okay.,0.0,0.0,0.0,0.0
+Any other siblings or just your sister?,What about your brother? Did anybody had cancer with him?,0.1,0.11764705882352941,0.0,0.11764705882352941
+Any allergies to any drugs?,Do you happen to be allergic to any medications.,0.2222222222222222,0.2857142857142857,0.16666666666666666,0.2857142857142857
+Do you smoke cigarettes?,Do you smoke or drink alcohol?,0.5,0.6,0.5,0.6
+How about alcohol?,"So, no smoking and no alcohol currently, right?",0.0,0.18181818181818182,0.0,0.18181818181818182
+Never?,"Okay, thank you for the information.",0.0,0.0,0.0,0.0
+"Good afternoon, and who is this with you today?","Good morning, miss, how are you today?",0.32206169703226534,0.375,0.14285714285714288,0.375
+"Do you have any major medical conditions that I should know about, ma'am?","Hello, nice to meet you. How can I help you today, miss?",0.15334073577155388,0.15384615384615383,0.0,0.15384615384615383
+"Okay, thank you. So, what brings you in for a visit today?","I see, and what seems to be the problem, miss?",0.0818730753077982,0.0909090909090909,0.0,0.0909090909090909
+Do you ever pee on yourself because of this?,"And does this result in any accidents or incontinence, miss?",0.0,0.10526315789473685,0.0,0.10526315789473685
+Has this problem been getting worse?,"How long have you been experiencing this, miss?",0.125,0.28571428571428575,0.0,0.14285714285714288
+What medications have you taken for this?,"Okay, do you take anything for it?",0.2857142857142857,0.2857142857142857,0.0,0.2857142857142857
+Have you had any improvement with that?,"How much of Enablex do you take, miss?",0.125,0.13333333333333333,0.0,0.13333333333333333
+Has the nursing home done a voiding diary?,"I would like for you to do a voiding diary, write down every time you go and any accidents.",0.10526315789473684,0.22222222222222218,0.16,0.22222222222222218
+"Are you having any blood in the urine, or pain with urination?",Are you having any painful or difficult urination?,0.45489799478447507,0.7000000000000001,0.33333333333333326,0.6
+How about fever or chills?,And what about bloody urine?,0.2,0.20000000000000004,0.0,0.20000000000000004
+What about bowel issues?,Are you having any chills or fever?,0.0,0.0,0.0,0.0
+"Okay, and I'm looking at the results of your urodynamics from April of two thousand eight, which we did in the office.",And why is that?,0.0,0.07407407407407408,0.0,0.07407407407407408
+"Well, it shows significant detrusor instability with involuntary urinary incontinence and low bladder volumes, and the cystoscopy was unremarkable, which is good.","Well, that test measures the amount of pressure in your bladder, and how much stability there is as well. It can also show low volumes of your bladder.",0.17857142857142858,0.36000000000000004,0.041666666666666664,0.2
+Do you have any medical conditions or illnesses?,"So, just to confirm, you still use your inhaler from when you had asthma as a kid?",0.058823529411764705,0.07999999999999999,0.0,0.07999999999999999
+"Good afternoon, sir, did you just have your forty first birthday?","How are you doing, sir?",0.060238842382440407,0.25000000000000006,0.0,0.12500000000000003
+"Happy birthday! Just to confirm my charts, you identify as White, correct?","Thank you for bringing his medical records. What is your age, sir?",0.08333333333333333,0.08333333333333333,0.0,0.08333333333333333
+"Great, thank you. So, we've treated you for H I V in the past. I have your lab results from your last visit right here.",Do you have a history of any major illness?,0.03755851453468135,0.1142857142857143,0.0,0.1142857142857143
+"Absolutely, your C D 4 count was four hundred twenty five, your viral load was less than fifty, and that was in August of two thousand seven.",Of course. Your last C D four count was four twenty five and the viral load was less than fifty in August Oh seven. Did they cover it during your previous appointments?,0.5,0.6779661016949152,0.3508771929824561,0.5762711864406779
+"Both of those are low, actually, but the low viral load is good.",Yes. They are within the normal range.,0.12124938447912854,0.2,0.0,0.2
+Have you had any medical complications recently?,Yeah.,0.0,0.0,0.0,0.0
+What was that for?,Is this for your abscess?,0.0,0.22222222222222224,0.0,0.22222222222222224
+How is the abscess today?,"Are you a diabetic, sir?",0.0,0.0,0.0,0.0
+"Good, what about your medical history?",What did the endocrinologist tell you?,0.0,0.16666666666666666,0.0,0.16666666666666666
+"Okay, thank you. What about newly diagnosed conditions?",Are you drinking more water than usual?,0.0,0.13333333333333333,0.0,0.13333333333333333
+What symptoms have you been experiencing with your diabetes?,Okay. I see a note from the endocrinology staff that you are taking insulin and you were treated with it in the hospital.,0.08695652173913043,0.125,0.0,0.125
+How have you been treated for this to date?,"So, because of some financial reasons you are taking Glucophage and glyburide, right?",0.07692307692307693,0.09090909090909093,0.0,0.09090909090909093
+Are you still taking the insulin?,"So, you've been taking your medication? Particular about your diabetic medications?",0.09090909090909091,0.2222222222222222,0.0,0.2222222222222222
+Have you been taking these?,Do you think that insulin is better than your current medications? Do you feel better on the insulin therapy more than your current therapy?,0.041666666666666664,0.06896551724137931,0.0,0.06896551724137931
+"Good, and how do you feel today?","That is good. Do you feel better on this insulin therapy, sir?",0.16666666666666666,0.4210526315789474,0.23529411764705885,0.4210526315789474
+Do you have any medical conditions in your past that I should know about?,Have you been to the hospital in the past?,0.12750076016387393,0.34782608695652173,0.0,0.2608695652173913
+"So, there's no history of depression, high blood pressure, or anything like that?",Thank you for the information.,0.0,0.0,0.0,0.0
+How are you doing today?,Who all in the family has had Huntington's Disease?,0.0,0.0,0.0,0.0
+I see in your note that you told the nurse that you have a strong family history of Huntington disease.,"I'm asking because my notes show that your mother and grandmother have had the disease, correct? Sister's of Mercy Clinic notes show that you have two young brothers who also have Huntington's Disease.",0.21212121212121213,0.39285714285714285,0.07407407407407407,0.32142857142857145
+Who in your family had Huntington disease?,Thank you for the information.,0.0,0.0,0.0,0.0
+How is everyone doing?,Thank you for the information.,0.0,0.0,0.0,0.0
+I am so sorry to hear that. What about your brothers?,I am so sorry to hear that. Is there any information about any other family members?,0.5,0.5925925925925926,0.48,0.5925925925925926
+Okay.,"Well, at least he's starting some treatment. Have you thought about heading over to the Huntington's special clinic, Sister's of Mercy? I think knowing more about the disease would do wonders for both you and your brothers.",0.0,0.0,0.0,0.0
+Does the patient have any drug allergies?,Are you allergic to any medications that you know of.,0.1,0.11764705882352941,0.0,0.11764705882352941
+None that I'm aware of. Let me check his chart again to confirm.,As far as I know I am not allergic to any medication.,0.07667036788577694,0.15384615384615383,0.0,0.15384615384615383
+Thanks.,Thank you,0.0,0.6666666666666666,0.0,0.6666666666666666
+"Yeah, it looks like he's not allergic to anything.",Thank you for the information.,0.0,0.0,0.0,0.0
+"So, let's see what we have here. I have down that you're not allergic to any medications.",Do you have allergies to any medications.,0.13694344939530048,0.3846153846153846,0.16666666666666666,0.3076923076923077
+"Good, great.",Thank you for the information.,0.0,0.0,0.0,0.0
+Are you married?,"Are you married, or are you dating anybody?",0.25,0.5454545454545454,0.4444444444444445,0.5454545454545454
+"Are you a smoker? Do you drink alcohol and if so, how many times a week do drink?",Are you a drinker or a smoker?,0.14839156224542915,0.4,0.2608695652173913,0.32
+Any recreational drug use?,Have you ever used recreational drugs?,0.16666666666666666,0.6,0.25,0.4
+"Hello, sir. What are we doing today?",I am looking at your report and wanted to confirm a few specifics from your family medical history. Is that okay?,0.0,0.0,0.0,0.0
+What did your parents have?,I completely understand. When is the last time you seen the doctor? I am looking and it says both of your parents died in their eighties.,0.07692307692307693,0.12903225806451613,0.06896551724137932,0.12903225806451613
+What about your mother?,How is the rest of your family? Do you have any brothers or sisters?,0.07142857142857142,0.11111111111111112,0.0,0.11111111111111112
+I am sorry to hear that. Do you have any siblings?,I am so sorry for your loss.,0.24202205228903967,0.33333333333333326,0.125,0.33333333333333326
+Hello ma'am. How are you doing today? Can you state your age please?,"When were you born, ma'am?",0.04037930359893108,0.3,0.1111111111111111,0.2
+"Luckily, all of the intercranial lab work has come back negative. Are you still on the hydrochlorothiazide and the potassium chloride?",What seems to be the problem today?,0.01933361189094467,0.07142857142857142,0.0,0.07142857142857142
+"Any chest pain, shortness of breath, dizzy spells, ankle swelling, or trouble breathing when sleeping?","Okay. And yes, I see your BP is elevating these days.",0.0,0.0,0.0,0.0
+"Ma'am, are you feeling okay?",Can you tell me a bit about your medical history?,0.1,0.125,0.0,0.125
+Who brought you to emergency?,That's the reason why you were sent over here.,0.1111111111111111,0.13333333333333333,0.0,0.13333333333333333
+Okay.,Should I wait to take his blood pressure when he gets here?,0.0,0.0,0.0,0.0
+Let me check your blood pressure and this will monitor your heartbeat.,He had tachycardia when I was checking him.,0.0,0.1,0.0,0.1
+"Well, your blood pressure looks quite high and so does your heartbeat. Do you have a history of hypertension or tachycardia, how old are you?",Let's take his blood pressure now.,0.014047947836425462,0.125,0.06666666666666667,0.125
+"Remind me, please, when was your last appointment, miss?",Welcome back to the clinic. How are you doing petition?,0.0,0.0,0.0,0.0
+How have your diabetes and kidney disease progressed since?,"Yes, it was.",0.0,0.0,0.0,0.0
+Who treated you for these?,Have you been seeking treatment?,0.2,0.20000000000000004,0.0,0.20000000000000004
+"I see, are you still having difficulties with blood sugar management?",Are you having difficulties managing your blood sugar?,0.3436446393954861,0.7368421052631579,0.3529411764705882,0.631578947368421
+What do you think caused this?,I see that you had inappropriate insulin correction with your infusion set.,0.08333333333333333,0.1111111111111111,0.0,0.1111111111111111
+"Let's try a correction bolus. Okay, now your blood sugar is quite low. Let's try to get some glucose and crackers into you.",I can do that here to address the low glucose levels.,0.061074723861665896,0.16666666666666666,0.0,0.1111111111111111
+"Okay, your blood sugar is back up to over one hundred, which is good.",Have you had another medical conditions that have interfered with your glucose control?,0.07122777528017817,0.07407407407407408,0.0,0.07407407407407408
+"Good, Are you having any other medical problems that have interfered with glucose control?",That's good! Any other reasons that could be affecting your glucose levels like diet or recent travels?,0.17647058823529413,0.31250000000000006,0.06666666666666667,0.31250000000000006
+Have you had any diet changes recently?,Thank you for the information.,0.13406400920712788,0.16666666666666666,0.0,0.16666666666666666
+What medications are you taking currently?,"What medications do you take? And please, include anything you were told to discontinue as well.",0.1875,0.36363636363636365,0.2,0.36363636363636365
+"I see. And you're no longer taking Terazosin, Lisinopril, or Atenolol?",And what did you take the Aspirin for?,0.08591115984887153,0.3,0.0,0.3
+Let me quickly examine your eyes nose and ears.,Hello! I hope you had good rest. I'd like to ask a few questions if you don't mind.,0.0,0.0,0.0,0.0
+"Well, eyes look fine no lesion seen on lids, brows or corner of the eyes. Extra ocular movements are intact. Sclerae look great. Pupils look fine. Can you open your eyes wide for me I am going to check with this instrument. Everything looks fine here.",Have you ever worn contacts or glasses before?,0.0021629238007801585,0.07407407407407408,0.0,0.03703703703703704
+"I don't see any swelling or glaucoma. No cataracts. Let me check your ears, Looks perfectly normal. Ears normal set and shape with normal hearing and tympanic membrane. No hearing problem or tinnitus or anything?",Are you experiencing any hearing loss? Have you had any issues hearing me clearly today?,0.0702925701641938,0.1568627450980392,0.0,0.11764705882352941
+"No cough or cold or sinus congestion, right?",And can you tell me what kind of dental work you've had done?,0.0,0.0,0.0,0.0
+"Open your mouth for me, stick your tongue out, say ""ahhhhh"" for me. Everything looks normal here.",Thank you for the additional information.,0.026646624346615647,0.08695652173913045,0.0,0.08695652173913045
+Do you regularly visit your dentist?,Can we do a quick eye exam?,0.0,0.15384615384615383,0.0,0.15384615384615383
+Okay.,"Any eyelid, eyelash, eyebrow, or conjunctiva lesions?",0.0,0.0,0.0,0.0
+"When did you stop using all the drugs, sir?","What is your drug history, sir?",0.1010884432854389,0.26666666666666666,0.0,0.26666666666666666
+"So, everything is clean after that? No more accidents?",Do you smoke or vape?,0.0,0.0,0.0,0.0
+Are you still smoking cigarettes at the same level?,That is great.,0.0,0.0,0.0,0.0
+"But do you know this is a problem for your health, especially your since you have chronic bronchitis?",It's been really hard on your lungs. It looks like you have a case of Chronic Bronchitis.,0.22185250443644114,0.3333333333333333,0.11764705882352941,0.2777777777777778
+How has she been since the last time we saw you both?,Tell me about this little one.,0.0,0.0,0.0,0.0
+How has her breathing been? Any changes?,Has she been able to have a regular bowel movement?,0.0,0.23529411764705882,0.0,0.23529411764705882
+"According to her chart she has not gained any weight since her last visit. I am sure it is due to her high energy level, but it is something we need to keep a close eye on.","Well, let's monitor her. Is there anything out of the ordinary that you have noticed within the last five days?",0.021370746597436333,0.10344827586206896,0.0,0.06896551724137931
+I would like you to focus on making sure she is getting enough protein in her daily diet. Here is a handout on meal suggestions and tips for keeping meal times on a consistent schedule.,What is she doing that is causing her to lose weight?,0.05128917605320769,0.21739130434782608,0.0,0.13043478260869562
+"Okay, let me ask you few questions.","So, with whom do you live?",0.14108028748176898,0.15384615384615383,0.0,0.15384615384615383
+Are you married?,With family?,0.0,0.0,0.0,0.0
+"So, you live with your wife, sir?","How about visits from family or friends, do you have frequent visitors? Are they allowed to stay with you during your recovery?",0.13636363636363635,0.20689655172413793,0.0,0.20689655172413793
+And do you smoke?,Do you smoke?,0.47768754038252614,0.8571428571428571,0.8,0.8571428571428571
+"I think the nurse had already asked you some of these questions, so I would just agree with them all. I don't need to ask again.",Alcohol?,0.0,0.0,0.0,0.0
+Are you married?,Can I also add how sad it must have been to hear about all of the natural disasters then? I cannot even imagine how all of those people feel. So awful.,0.0,0.0,0.0,0.0
+Where do you work?,Are you working?,0.23884377019126307,0.5714285714285715,0.4,0.5714285714285715
+Do you smoke or drink?,Thank you for the information.,0.2,0.20000000000000004,0.0,0.20000000000000004
+"Hi there, I love that dress, very pretty!","Hello, ma'am, how are you holding up? Its good to see you after all these years. How is everything else going except for the treatment?",0.0,0.0,0.0,0.0
+"No, I mean it, seriously. Okay, so you were admitted here in May two thousand nine. You have a history of hypertension, and on June eighteenth two thousand nine you had bad abdominal pain diarrhea and cramps.","So, tell me what's going on?",0.0,0.09090909090909091,0.0,0.09090909090909091
+"Yes, it showed evidence of diffuse colitis, so I believe they gave you IV antibiotics?",Have they started treating you for it?,0.09111615923542012,0.27272727272727276,0.0,0.18181818181818182
+"Yeah I see here, Flagyl and Levaquin. They started IV Reglan as well for your vomiting.",Were you recently admitted to the hospital back in May?,0.0,0.0,0.0,0.0
+After all this I still see your white blood cells high. Are you still nauseous?,"What kind of treatment did they give you, do you remember?",0.06319490258171626,0.07692307692307691,0.0,0.07692307692307691
+Okay. Anything else any other symptoms?,"As per the report, the beginning of the month of May they admit you here because they were thinking this all had to do something with C. difficile.",0.0,0.0,0.0,0.0
+Great.,"I am sorry, but do you have any other problems I should know of.",0.0,0.0,0.0,0.0
+"Any uncomfortable feeling in the back of your throat, like excess mucous accumulation or something like that?",Any sore throat problems?,0.009693551957930502,0.19047619047619047,0.0,0.19047619047619047
+"Um, any soreness in your throat?",Notice any post nasal drip or congestion?,0.14285714285714285,0.15384615384615383,0.0,0.15384615384615383
+"It's good to see you sitting up in the bed, ma'am.","Amy, how're you today?",0.043443485862611285,0.1111111111111111,0.0,0.1111111111111111
+Have you eaten anything yet?,"Are you sure you're not having any kind of dizziness or trouble walking? A lot of the time people have these symptoms but don't even realize. It's also fine if you're hyped up on coffee, I'm just trying to get a good sense of an exam!",0.021739130434782608,0.07142857142857142,0.0,0.07142857142857142
+"Good, do you have any new symptoms since June tenth two thousand nine?","How about those T H I S words, what day of the week it currently is, and what circumstances brought you here?",0.045454545454545456,0.05714285714285715,0.0,0.05714285714285715
+That's pretty normal. I'm glad that you're doing well after the procedure. Do you have any questions?,Did someone go over what we found on the imaging? Do you have any questions for me on your condition?,0.25,0.3,0.21052631578947367,0.3
+"It went well, we are all down and you should be back to eating shortly.","Your procedure was successful, we removed a troublesome tumor.",0.05704634655917689,0.08333333333333334,0.0,0.08333333333333334
+Are there any major medical conditions that you know of that I should be aware of?,Any history of disease?,0.012446767091965986,0.2,0.0,0.2
+"Well, anything from depression, to cancer.",Any past medical problems?,0.0,0.0,0.0,0.0
+Have you had your flu or Pneumonia vaccination this year?,Do you have the flu vaccine?,0.17113903967753066,0.5,0.0,0.37499999999999994

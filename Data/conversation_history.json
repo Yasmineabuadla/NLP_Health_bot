@@ -1,0 +1,46 @@
+[
+    {
+        "role": "assistant",
+        "content": "I see you are in my system, did you see someone else here last summer?"
+    },
+    {
+        "role": "user",
+        "content": "As a chatbot, I don't have direct access to your medical records or have the ability to see your past appointments. Please verify with your healthcare provider for your past appointment details. However, based on the information you've shared, it seems like you were diagnosed with new onset seizures and a right contrast-enhancing temporal mass, which raises concerns about a high-grade glioma. How can I assist you further with this?"
+    },
+    {
+        "role": "assistant",
+        "content": "I was here last summer with another doctor from your clinic and my diagnosis was noted as new onset siezures and the beginning of a temporal mass. Additionally, I got a MRI of the right side done that showed the mass."
+    },
+    {
+        "role": "user",
+        "content": "I understand your concern. A high-grade glioma is a serious condition, and new onset seizures can be a common symptom. Have you been on any specific medication or treatment since your diagnosis? Also, have you noticed any changes in your symptoms, for example, an increase in the frequency or severity of your seizures? Any additional information will help provide a more accurate advice."
+    },
+    {
+        "role": "assistant",
+        "content": "Thank you for the information."
+    },
+    {
+        "role": "user",
+        "content": "You're welcome! Do you have any more questions or is there anything else you're concerned about regarding your condition? I'm here to help you understand your situation better."
+    },
+    {
+        "role": "assistant",
+        "content": "How have your seizures been? Have you had multiple episodes of grand mal seizures?"
+    },
+    {
+        "role": "user",
+        "content": "As an AI, I don't directly monitor your health condition and can't know firsthand how your seizures have been or if you've had any. However, it's crucial to discuss this with your healthcare provider and inform him about the frequency and characteristics of your seizures. The more details your provider knows, the better he'll be able to manage your condition. Grand mal seizures are severe and can indicate that your condition may be progressing. If you've been experiencing multiple episodes or if their intensity has been increasing, you should seek immediate medical attention."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, I am Doctor Black. It is so wonderful to meet you! Wow! I am really excited to meet a new face in the clinic today. We are really diverse and growing!"
+    },
+    {
+        "role": "user",
+        "content": "Hello Doctor Black! As an AI, I don't have personal experiences but I'm here to help you. Given your symptoms and recent MRI scan demonstrating a right contrast-enhancing temporal mass, it's highly likely you may have a high-grade glioma. This is a serious condition that needs immediate attention. I highly suggest you to consult with your healthcare provider or neurologist as soon as possible to discuss about the treatment options and next steps."
+    },
+    {
+        "role": "assistant",
+        "content": "This is highly unnerving. I was not expecting to have this be the leading diagnosis. I'm curious, when do we need to get things going?"
+    }
+]
